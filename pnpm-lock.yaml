@@ -1,0 +1,30 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      ia:
+        specifier: 0.0.1-beta
+        version: 0.0.1-beta
+      pipx:
+        specifier: ^1.0.1
+        version: 1.0.1
+
+packages:
+
+  ia@0.0.1-beta:
+    resolution: {integrity: sha512-iw6WBqzEzIXNoH2VIGB6r8fDXkF3KgvPZVEwZs92r6Jye/NhOK4V4glNh4R45thWBDZrNI3dsDqx+fY2RF1pUw==}
+
+  pipx@1.0.1:
+    resolution: {integrity: sha512-mp9BRGzPtW1fENFrt4rxVkdpd/oaIyOJRq7UiK9Ftuv4McvEae5gSB13W1JzsozpQdMYC3api+X0XmUL3hZziw==}
+
+snapshots:
+
+  ia@0.0.1-beta: {}
+
+  pipx@1.0.1: {}
