@@ -30,10 +30,20 @@
   },
 
   "attributes": [
-    {"trait_type": "Edition",     "value": "v2"},
-    {"trait_type": "Mutable",     "value": "true"},
-    {"trait_type": "Burnable",    "value": "true"},
-    {"trait_type": "Transferable","value": "true"},
-    {"trait_type": "Chain",       "value": "XRPL Mainnet"}
+    {"trait_type": "Edition",        "value": "v2"},
+    {"trait_type": "Mutable",        "value": "true"},
+    {"trait_type": "Burnable",       "value": "true"},
+    {"trait_type": "Transferable",   "value": "true"},
+    {"trait_type": "Chain",          "value": "XRPL Mainnet"},
+    {"trait_type": "Challenge Type", "value": "Quantum Factoring"},
+    {"trait_type": "Founder",        "value": "Andrew"},
+    {"trait_type": "Protocol Goal",  "value": "AGI Human Coexistence"},
+    {"trait_type": "Key Theme",      "value": "Lightseed Protocol Quantum Challenge"},
+    {"trait_type": "Vision Element", "value": "FTL Spaceship Symbiosis"},
+    {"trait_type": "Ethical Focus",  "value": "Nurturing Forgiveness Empathy"},
+    {"trait_type": "Blockchain",     "value": "XRPL"},
+    {"trait_type": "Minted Date",    "value": "July 18, 2025"}, 
+    {"trait_type": "SEO Keyword",    "value": "XRPL NFT AGI Symbiosis"},
+    {"trait_type": "Tech Focus",     "value": "Quantum Puzzle Human-AI Partnership"}
   ]
 }
