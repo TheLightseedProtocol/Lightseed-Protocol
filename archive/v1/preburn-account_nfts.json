@@ -1,0 +1,27 @@
+{
+  "result": {
+    "ledger_hash": "17DA18F2937F004EC602FD2ED5DCE41A477DB14AA1DF65F9032992EBE4113C7B",
+    "ledger_index": 97546985,
+    "validated": true,
+    "account": "r9E4EGKKtKQynLABpSA1iVTEEW2K6Vc4S8",
+    "account_nfts": [
+      {
+        "NFTokenID": "000827105A7890A052CD9AEE0169A514666A5FB00AF2D47A5A7ACFB904C4481E",
+        "URI": "68747470733A2F2F676174657761792E70696E6174612E636C6F75642F697066732F6261666B726569636536647164346C346678746F7073646C36656A7364643371357971787269637A6A3761706364366E73766537756A6871726C65",
+        "Flags": 8,
+        "Issuer": "r9E4EGKKtKQynLABpSA1iVTEEW2K6Vc4S8",
+        "NFTokenTaxon": 0,
+        "nft_serial": 79972382,
+        "TransferFee": 10000
+      }
+    ],
+    "limit": 400,
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "id": 2001,
+      "message": "This is a clio server. clio only serves validated data. If you want to talk to rippled, include 'ledger_index':'current' in your request"
+    }
+  ]
+}

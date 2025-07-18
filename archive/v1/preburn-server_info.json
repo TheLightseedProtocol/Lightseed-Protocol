@@ -1,0 +1,39 @@
+{
+  "result": {
+    "info": {
+      "complete_ledgers": "32570-97546979",
+      "load_factor": 1,
+      "time": "2025-Jul-18 02:50:45.755983 UTC",
+      "uptime": 604419,
+      "clio_version": "2.4.1",
+      "libxrpl_version": "2.4.0",
+      "validated_ledger": {
+        "age": 4,
+        "hash": "09F245B7E512E71AF4DCF11C5325E69950EF0B69CB7FBE677652974153254384",
+        "seq": 97546979,
+        "base_fee_xrp": 0.00001,
+        "reserve_base_xrp": 1,
+        "reserve_inc_xrp": 0.2
+      },
+      "cache": {
+        "size": 17465351,
+        "is_enabled": true,
+        "is_full": true,
+        "latest_ledger_seq": 97546979,
+        "object_hit_rate": 0.9747908115386963,
+        "successor_hit_rate": 0.9945123195648193
+      },
+      "validation_quorum": 28,
+      "rippled_version": "2.5.0",
+      "network_id": 0
+    },
+    "validated": true,
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "id": 2001,
+      "message": "This is a clio server. clio only serves validated data. If you want to talk to rippled, include 'ledger_index':'current' in your request"
+    }
+  ]
+}
