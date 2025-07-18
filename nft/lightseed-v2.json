@@ -24,11 +24,10 @@
   ],
 
   "storage": {
-    "canonical_url": "https://lightseed.ai/nft/lightseed-v2.json",
-    "cid": "bafkreihrzm3kaw6wjv7fvdov5oqmhc6vipssk6hiroxc3susweffou6lci",
-    "ipfs_mirror": "ipfs/bafybeiednpdpzfoll5eiw7oarak3qcllziyuwk5o6pauxucywdoeyf3vom",
-    "github_mirror": "https://raw.githubusercontent.com/TheLightseedProtocol/Lightseed-Protocol/main/nft/lightseed-v2.json"
-  },
+  "canonical_url": "https://lightseed.ai/nft/lightseed-v2.json",
+  "ipfs_mirror": "/ipfs/bafybeiednpdpzfoll5eiw7oarak3qcllziyuwk5o6pauxucywdoeyf3vom",
+  "github_mirror": "https://raw.githubusercontent.com/TheLightseedProtocol/Lightseed-Protocol/main/nft/lightseed-v2.json"
+},
 
   "attributes": [
     {"trait_type": "Edition",        "value": "v2"},
