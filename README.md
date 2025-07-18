@@ -1,4 +1,3 @@
-````markdown
 <!-- README.md — Lightseed Protocol -->
 
 <p align="center">
