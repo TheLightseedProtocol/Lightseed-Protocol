@@ -25,7 +25,7 @@
   "storage": {
     "canonical_url": "https://lightseed.ai/nft/lightseed-v2.json",
     "cid": "bafkreicqhacav6oesoldv73sewd4ztqln2mrkifsjxi6xgscojwiwz23c4",
-    "ipns_mirror": "<to_fill_after_pin>",
+    "ipns_mirror": "ipfs/bafybeig5tyoefze44h67oh5227dybdp34xn3tbt5ivkf2hdau5ic24sfwe",
     "github_mirror": "https://raw.githubusercontent.com/TheLightseedProtocol/Lightseed-Protocol/main/nft/lightseed-v2.json"
   },
 
