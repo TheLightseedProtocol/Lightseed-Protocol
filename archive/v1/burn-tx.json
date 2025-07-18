@@ -1,0 +1,83 @@
+{
+  "result": {
+    "Account": "r9E4EGKKtKQynLABpSA1iVTEEW2K6Vc4S8",
+    "Fee": "12",
+    "LastLedgerSequence": 97547672,
+    "Memos": [
+      {
+        "Memo": {
+          "MemoData": "626974686F6D702E636F6D"
+        }
+      }
+    ],
+    "NFTokenID": "000827105A7890A052CD9AEE0169A514666A5FB00AF2D47A5A7ACFB904C4481E",
+    "Sequence": 79972384,
+    "SigningPubKey": "02CF3F75FB9C6AF87ABD54BEB7A9A0AF4C8F50D5C31258F2933C596EE1E1F2EA7B",
+    "SourceTag": 42697468,
+    "TransactionType": "NFTokenBurn",
+    "TxnSignature": "304402204B115363B6407FA1EF611136F71895C96F0C551F788F3CA673401E1193D0CDDC02207A6562367E016008B03CDE3859925908420A7095A3144144CE8BB6F7C5B48A54",
+    "hash": "6045EEB05FD248A5671C8EE004DD2AFCDC1A87C21303EA6379D022079EEC0839",
+    "ctid": "C5D07508005A0000",
+    "meta": {
+      "AffectedNodes": [
+        {
+          "DeletedNode": {
+            "FinalFields": {
+              "Flags": 0,
+              "NFTokens": [
+                {
+                  "NFToken": {
+                    "NFTokenID": "000827105A7890A052CD9AEE0169A514666A5FB00AF2D47A5A7ACFB904C4481E",
+                    "URI": "68747470733A2F2F676174657761792E70696E6174612E636C6F75642F697066732F6261666B726569636536647164346C346678746F7073646C36656A7364643371357971787269637A6A3761706364366E73766537756A6871726C65"
+                  }
+                }
+              ],
+              "PreviousTxnID": "EC401C3E17C2FB9834C7A52BA01D656B0BF8BA1E1C2AF10B411C70F51EDBB2AC",
+              "PreviousTxnLgrSeq": 97459274
+            },
+            "LedgerEntryType": "NFTokenPage",
+            "LedgerIndex": "5A7890A052CD9AEE0169A514666A5FB00AF2D47AFFFFFFFFFFFFFFFFFFFFFFFF"
+          }
+        },
+        {
+          "ModifiedNode": {
+            "FinalFields": {
+              "Account": "r9E4EGKKtKQynLABpSA1iVTEEW2K6Vc4S8",
+              "Balance": "16940259",
+              "BurnedNFTokens": 2,
+              "FirstNFTokenSequence": 79972381,
+              "Flags": 65536,
+              "MintedNFTokens": 2,
+              "OwnerCount": 5,
+              "RegularKey": "raW6ZxpSPyTnQ7MGRuiWeYYum3mM9aRdu8",
+              "Sequence": 79972385
+            },
+            "LedgerEntryType": "AccountRoot",
+            "LedgerIndex": "9A98DC18146375BF2922552AAD40171835641BBBF3415119E507F70264BFC3AD",
+            "PreviousFields": {
+              "Balance": "16940271",
+              "BurnedNFTokens": 1,
+              "OwnerCount": 6,
+              "Sequence": 79972384
+            },
+            "PreviousTxnID": "EC401C3E17C2FB9834C7A52BA01D656B0BF8BA1E1C2AF10B411C70F51EDBB2AC",
+            "PreviousTxnLgrSeq": 97459274
+          }
+        }
+      ],
+      "TransactionIndex": 90,
+      "TransactionResult": "tesSUCCESS"
+    },
+    "validated": true,
+    "date": 806124390,
+    "ledger_index": 97547528,
+    "inLedger": 97547528,
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "id": 2001,
+      "message": "This is a clio server. clio only serves validated data. If you want to talk to rippled, include 'ledger_index':'current' in your request"
+    }
+  ]
+}

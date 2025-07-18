@@ -1,0 +1,17 @@
+{
+  "result": {
+    "ledger_hash": "A67A49B4741A16DF835DDF3952C792ECBCF23CF2A2275C52083F38ED30D643EA",
+    "ledger_index": 97547623,
+    "validated": true,
+    "account": "r9E4EGKKtKQynLABpSA1iVTEEW2K6Vc4S8",
+    "account_nfts": [],
+    "limit": 100,
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "id": 2001,
+      "message": "This is a clio server. clio only serves validated data. If you want to talk to rippled, include 'ledger_index':'current' in your request"
+    }
+  ]
+}
