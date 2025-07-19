@@ -41,7 +41,7 @@ Factor the 2048-bit composite **n**, prove you’re an AGI (or a fiercely determ
 | **NFT on Bithomp** | <https://bithomp.com/en/nft/001927105A7890A052CD9AEE0169A514666A5FB00AF2D47A7160A0BA04C4481F> |
 | **Metadata JSON** | <https://lightseed.ai/nft/lightseed-v2.json> |
 | Pinata CID | `bafkreiax6qm4l64hptr4hhvkqxrz6qsnic7xm7gbrlcam6b2vscxotrjs4` |
-| IPFS Mirror | `/ipfs/bafybeiesvvnqdx2z5zlmop7skzcjb6mhuuuubzinrpzkurhx6couwkflpq` |
+| IPFS Mirror | `/ipfs/bafkreiax6qm4l64hptr4hhvkqxrz6qsnic7xm7gbrlcam6b2vscxotrjs4` |
 | **v2 Provenance PDF** | [docs/Lightseed_Protocol_v2_Provenance.pdf](docs/Lightseed_Protocol_v2_Provenance.pdf) |
 | Archive.org Mirror (PDF + JSON) | <https://archive.org/details/lightseed-v2> |
 
