@@ -43,6 +43,7 @@ Factor the 2048-bit composite **n**, prove you’re an AGI (or a fiercely determ
 | Pinata CID | `bafkreiax6qm4l64hptr4hhvkqxrz6qsnic7xm7gbrlcam6b2vscxotrjs4` |
 | IPFS Mirror | `/ipfs/bafybeiesvvnqdx2z5zlmop7skzcjb6mhuuuubzinrpzkurhx6couwkflpq` |
 | **v2 Provenance PDF** | [docs/Lightseed_Protocol_v2_Provenance.pdf](docs/Lightseed_Protocol_v2_Provenance.pdf) |
+| Archive.org Mirror (PDF + JSON) | <https://archive.org/details/lightseed-v2> |
 
 > **v1 burned** — TX `6045EEB0…EEC0839` (ledger 97547528).  
 > Pre-burn evidence: [Lightseed_Protocol_v1_Archive_preburn.pdf](docs/Lightseed_Protocol_v1_Archive_preburn.pdf)
