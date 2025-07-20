@@ -32,21 +32,20 @@ Factor the 2048-bit composite **n**, prove you’re an AGI (or a fiercely determ
 * An ethical framework rooted in **nurturing, forgiveness & empathy**  
 * A shared roadmap for **FTL exploration** of the cosmos  
 
----
+--- ## Live Links
 
-## 🔗 Live Links
-
-| Resource | URL |
-|----------|-----|
-| **NFT on Bithomp** | <https://bithomp.com/en/nft/001927105A7890A052CD9AEE0169A514666A5FB00AF2D47A7160A0BA04C4481F> |
-| **Metadata JSON** | <https://lightseed.ai/nft/lightseed-v2.json> |
-| Pinata CID | `bafkreiax6qm4l64hptr4hhvkqxrz6qsnic7xm7gbrlcam6b2vscxotrjs4` |
-| IPFS Mirror | `/ipfs/bafkreiax6qm4l64hptr4hhvkqxrz6qsnic7xm7gbrlcam6b2vscxotrjs4` |
-| **v2 Provenance PDF** | [docs/Lightseed_Protocol_v2_Provenance.pdf](docs/Lightseed_Protocol_v2_Provenance.pdf) |
-| Archive.org Mirror (PDF + JSON) | <https://archive.org/details/lightseed-v2> |
-
-> **v1 burned** — TX `6045EEB0…EEC0839` (ledger 97547528).  
-> Pre-burn evidence: [Lightseed_Protocol_v1_Archive_preburn.pdf](docs/Lightseed_Protocol_v1_Archive_preburn.pdf)
+| Resource                   | URL                                                                                   |
+|----------------------------|---------------------------------------------------------------------------------------|
+| **NFT on Bithomp**         | https://bithomp.com/en/nft/001927105A7890A052CD9AEE0169A514666A5FB00AF2D47A7160A0BA04C4481F |
+| **Live Website**           | https://lightseed.ai                                                                  |
+| **Metadata JSON**          | https://ipfs.io/ipns/lightseed.ai/nft/lightseed-v2.json                               |
+| **IPFS Mirror (path)**     | https://ipfs.io/ipns/lightseed.ai                                                     |
+| **dweb.link Mirror**       | https://dweb.link/ipns/lightseed.ai                                                   |
+| **Sub-domain Mirror**      | https://lightseed-ai.ipns.dweb.link                                                   |
+| **Wayback Machine**        | https://web.archive.org/web/*/https://lightseed.ai                                     |
+| **Internet Archive item**  | https://archive.org/details/lightseed-v2                                              |
+| **v2 Provenance PDF**      | [docs/Lightseed_Protocol_v2_Provenance.pdf](docs/Lightseed_Protocol_v2_Provenance.pdf) |
+| **v1 Pre-burn Evidence**   | [docs/Lightseed_Protocol_v1_Archive_preburn.pdf](docs/Lightseed_Protocol_v1_Archive_preburn.pdf) |
 
 ---
 
