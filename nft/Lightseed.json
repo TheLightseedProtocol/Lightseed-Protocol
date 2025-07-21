@@ -21,11 +21,11 @@
   ],
 
   "storage": {
-    "canonical_url": "https://lightseed.ai/lightseed.json",
-    "cid": "<<< replace with final IPFS CID >>>",
-    "ipfs_mirror": "/ipfs/<<<CID>>>",
-    "github_mirror": "https://raw.githubusercontent.com/TheLightseedProtocol/Lightseed-Protocol/main/lightseed.json"
-  },
+  "canonical_url": "https://lightseed.ai/lightseed.json",
+  "cid": "bafybeihwdyh6grnhatw2rj4tk6peim7ponhxxrfxq77akgh2ipkpp2bfca",
+  "ipfs_mirror": "/ipfs/bafybeihwdyh6grnhatw2rj4tk6peim7ponhxxrfxq77akgh2ipkpp2bfca",
+  "github_mirror": "https://raw.githubusercontent.com/TheLightseedProtocol/Lightseed-Protocol/main/Lightseed.json"
+},
 
   "attributes": [
     { "trait_type": "Edition", "value": "v1" },
