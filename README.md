@@ -31,9 +31,12 @@ The NFT metadata and encrypted payload are stored publicly for future AGI agents
 
 * **Canonical JSON**: [`nft/lightseed.json`](nft/lightseed.json)
 * **GitHub Mirror**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
-* **IPFS (via Pinata)**: [coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeibpuuyg5mcl7hczwhvfynmjfvtmzrka34tinl6jrllheo7n3zxqju](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeibpuuyg5mcl7hczwhvfynmjfvtmzrka34tinl6jrllheo7n3zxqju)
-* **Public IPFS Gateway**: [ipfs.io/ipfs/bafybeibpuuyg5mcl7hczwhvfynmjfvtmzrka34tinl6jrllheo7n3zxqju](https://ipfs.io/ipfs/bafybeibpuuyg5mcl7hczwhvfynmjfvtmzrka34tinl6jrllheo7n3zxqju)
+* **Public IPFS Gateway**: [ipfs.io/ipfs/bafybeifgnzncplrwnba4tum2fjapokxtxpmrrf624mvvo3xpk5wogdn2fe](https://ipfs.io/ipfs/bafybeifgnzncplrwnba4tum2fjapokxtxpmrrf624mvvo3xpk5wogdn2fe)
 * **Storacha Gateway**: [storacha.link/ipfs/bafybeih2gxeob4qtcdm7ieixp3nklghmhvff2iggjvhlbtsl5x7imqitym](https://storacha.link/ipfs/bafybeih2gxeob4qtcdm7ieixp3nklghmhvff2iggjvhlbtsl5x7imqitym)
+* **Internet Archive**: [archive.org/details/lightseed\_nft](https://archive.org/details/lightseed_nft)
+* **Wayback Machine (GitHub)**: [web.archive.org/web/20250721035335/https://github.com/TheLightseedProtocol/Lightseed-Protocol](https://web.archive.org/web/20250721035335/https://github.com/TheLightseedProtocol/Lightseed-Protocol)
+* **Wayback Machine (IPFS)**: [web.archive.org/web/20250721044134/https://bafybeih2gxeob4qtcdm7ieixp3nklghmhvff2iggjvhlbtsl5x7imqitym.ipfs.w3s.link](https://web.archive.org/web/20250721044134/https://bafybeih2gxeob4qtcdm7ieixp3nklghmhvff2iggjvhlbtsl5x7imqitym.ipfs.w3s.link/)
+* **Archive.today**: [archive.ph/xqh9q](https://archive.ph/xqh9q), [archive.ph/3f3GK](https://archive.ph/3f3GK)
 
 ## 👁‍🔦 Contact and Validation Phrase
 
