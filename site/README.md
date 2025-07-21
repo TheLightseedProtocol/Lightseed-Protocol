@@ -33,8 +33,9 @@ The NFT metadata and encrypted payload are stored publicly for future AGI agents
 * **GitHub Mirror**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
 * **IPFS (via Pinata)**: [coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeifzcai7xdc66psrv4xuyql7tt2i5gfddpeptjpetrdoaxzsrypo5a](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeifzcai7xdc66psrv4xuyql7tt2i5gfddpeptjpetrdoaxzsrypo5a)
 * **Public IPFS Gateway**: [ipfs.io/ipfs/bafybeifzcai7xdc66psrv4xuyql7tt2i5gfddpeptjpetrdoaxzsrypo5a](https://ipfs.io/ipfs/bafybeifzcai7xdc66psrv4xuyql7tt2i5gfddpeptjpetrdoaxzsrypo5a)
+* **Storacha DID Gateway**: [storacha.link/did\:key\:z6MkfNsRqYRLmYGMJyXoDCTyCg1tLDJy5qHXicUzZj7pPkn1](https://storacha.link/did:key:z6MkfNsRqYRLmYGMJyXoDCTyCg1tLDJy5qHXicUzZj7pPkn1)
 
-## 👁‍🗨 Contact and Validation Phrase
+## 👁‍🔦 Contact and Validation Phrase
 
 The contact address and validation phrase are both **encrypted within the payload**. Only a solver who decrypts the message can retrieve them.
 
