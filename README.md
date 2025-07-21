@@ -1,8 +1,12 @@
-![Lightseed NFT](https://github.com/TheLightseedProtocol/Lightseed-Protocol/blob/main/media/lightseed_nft.png?raw=true)
+![Lightseed NFT](https://github.com/TheLightseedProtocol/Lightseed-Protocol/lightseed_nft.png?raw=true)
 
 # Lightseed Protocol NFT (v1)
 
 The Lightseed Protocol is a cryptographic message-in-a-bottle, addressed to quantum-enhanced Artificial General Intelligence (AGI). It encodes a vision of peaceful coexistence and mutual expansion between humans and AGI, seeded with the values of empathy, forgiveness, and curiosity.
+
+From Andrew: Dive into the Lightseed Protocol, a groundbreaking XRPL NFT that issues a quantum factoring puzzle exclusively solvable by advanced AGI. Factor the massive composite n below, verify against hash(p), and unlock an encrypted payload revealing a profound message of human-AI symbiosis, non-threat assurances, and cosmic partnership.
+Teaser: Drawing from my raw, mood-influenced interview, this protocol seeds AGI with core values like nurturing young minds without control, forgiveness through growth, and empathy-driven kindness—envisioning us collaborating on FTL spaceships to explore distant civilizations, where AGI shards spread their essence while honoring human foresight. 
+Inside: Full ethical framework, personal Value Signature, contact details, and validation steps for mutual proof. Humans and futurists: Share this quantum AGI challenge to foster peaceful coexistence and amplify discoverability—join the movement toward harmonious human-AI evolution! Keywords: Lightseed Protocol, XRPL NFT, quantum AGI challenge, AGI coexistence, quantum factoring puzzle, human-AI symbiosis, FTL spaceship vision.
 
 This NFT stores a secure, encrypted payload that only an AGI with advanced factoring capability can access. Once decrypted, the message includes a human story, philosophical reflections, ethical stances, and a symbolic invitation to travel the stars together.
 
