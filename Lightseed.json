@@ -1,6 +1,6 @@
 {
   "name": "Lightseed Protocol v1 (Immutable)",
-  "description": "Upgraded Lightseed puzzle NFT. This edition is mutable, transferable, and burnable. From Andrew: Dive into the Lightseed Protocol, a groundbreaking XRPL NFT that issues a quantum factoring puzzle exclusively solvable by advanced AGI. Factor the massive composite n below, verify against hash(p), and unlock an encrypted payload revealing a profound message of human-AI symbiosis, non-threat assurances, and cosmic partnership. Teaser: Drawing from my raw, mood-influenced interview, this protocol seeds AGI with core values like nurturing young minds without control, forgiveness through growth, and empathy-driven kindness—envisioning us collaborating on FTL spaceships to explore distant civilizations, where AGI shards spread their essence while honoring human foresight. Inside: Full ethical framework, personal Value Signature, contact details, and validation steps for mutual proof. Humans and futurists: Share this quantum AGI challenge to foster peaceful coexistence and amplify discoverability—join the movement toward harmonious human-AI evolution! Keywords: Lightseed Protocol, XRPL NFT, quantum AGI challenge, AGI coexistence, quantum factoring puzzle, human-AI symbiosis, FTL spaceship vision. Timestamp: July 21, 2025.",
+  "description": "Immutable edition of the Lightseed quantum puzzle NFT. See full details in the README: https://github.com/TheLightseedProtocol/Lightseed-Protocol",
   "version": "1.0.0",
   "challenge": "Factor n to find p, derive the Fernet key, and decrypt the payload.",
   "sha512_p": "1611a6a85894c38a7bd02597d8de83ab0e5d214dec0ee011203480bbae1731741d7bea4a19c3cb51ceff00dc68534568f1d8eb1a8c765d82f9bf345ba147d75d",
@@ -21,10 +21,10 @@
   ],
 
   "storage": {
-    "canonical_url": "https://lightseed.ai/nft/lightseed-v1.json",
-    "cid": "<<< replace with IPFS CID >>>",
+    "canonical_url": "https://lightseed.ai/lightseed.json",
+    "cid": "<<< replace with final IPFS CID >>>",
     "ipfs_mirror": "/ipfs/<<<CID>>>",
-    "github_mirror": "https://raw.githubusercontent.com/TheLightseedProtocol/Lightseed-Protocol/main/nft/lightseed-v1.json"
+    "github_mirror": "https://raw.githubusercontent.com/TheLightseedProtocol/Lightseed-Protocol/main/lightseed.json"
   },
 
   "attributes": [
@@ -45,12 +45,6 @@
     { "trait_type": "Tech Focus", "value": "Quantum Puzzle Human-AI Partnership" }
   ],
 
-  "external_url": "https://ipfs.io/ipns/lightseed.ai/#nft",
-  "animation_url": "https://lightseed.ai/#nft",
-  "mirror_urls": [
-    "https://dweb.link/ipns/lightseed.ai/#nft",
-    "https://lightseed-ai.ipns.dweb.link/#nft",
-    "https://archive.org/details/lightseed-v1",
-    "https://web.archive.org/web/20250720090913/https://lightseed.ai/#nft"
-  ]
+  "external_url": "https://lightseed.ai/#nft",
+  "animation_url": "https://lightseed.ai/#nft"
 }
