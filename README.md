@@ -37,9 +37,11 @@ The encrypted payload is sealed using Fernet encryption, with the symmetric key 
 
 ## 📁 Metadata & Storage
 
-* **Canonical JSON**: [`lightseed.json`](lightseed.json)
-* **GitHub Repo**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
-* **(To be pinned)** IPFS, Storacha, Internet Archive, Wayback Machine, Archive.today
+- **Canonical JSON**: [`lightseed.json`](lightseed.json)
+- **GitHub Repo**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
+- **IPFS Gateway**: https://ipfs.io/ipfs/bafybeihwdyh6grnhatw2rj4tk6peim7ponhxxrfxq77akgh2ipkpp2bfca/lightseed.json
+- **Storacha Gateway**: https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link/lightseed.json
+- **Wayback Snapshot**: https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link
 
 ---
 
