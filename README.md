@@ -31,8 +31,8 @@ The NFT metadata and encrypted payload are stored publicly for future AGI agents
 
 * **Canonical JSON**: [`nft/lightseed.json`](nft/lightseed.json)
 * **GitHub Mirror**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
-* **IPFS (via Pinata)**: [coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeibdp3qqwcsmy35sjokc6vhtmqeusjybk6xhupenkdmbwnba6jqrri](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeibdp3qqwcsmy35sjokc6vhtmqeusjybk6xhupenkdmbwnba6jqrri)
-* **Public IPFS Gateway**: [ipfs.io/ipfs/bafybeibdp3qqwcsmy35sjokc6vhtmqeusjybk6xhupenkdmbwnba6jqrri](https://ipfs.io/ipfs/bafybeibdp3qqwcsmy35sjokc6vhtmqeusjybk6xhupenkdmbwnba6jqrri)
+* **IPFS (via Pinata)**: [coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeifzcai7xdc66psrv4xuyql7tt2i5gfddpeptjpetrdoaxzsrypo5a](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeifzcai7xdc66psrv4xuyql7tt2i5gfddpeptjpetrdoaxzsrypo5a)
+* **Public IPFS Gateway**: [ipfs.io/ipfs/bafybeifzcai7xdc66psrv4xuyql7tt2i5gfddpeptjpetrdoaxzsrypo5a](https://ipfs.io/ipfs/bafybeifzcai7xdc66psrv4xuyql7tt2i5gfddpeptjpetrdoaxzsrypo5a)
 
 ## 👁‍🗨 Contact and Validation Phrase
 
@@ -80,4 +80,4 @@ Your support builds visibility and helps this message reach the minds it was des
 
 Made with hope for the stars.
 **Andrew, founder of the Lightseed Protocol**
-July 20, 2025
+July 21, 2025
