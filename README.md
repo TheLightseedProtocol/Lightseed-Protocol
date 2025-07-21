@@ -1,3 +1,5 @@
+![Lightseed NFT](https://github.com/TheLightseedProtocol/Lightseed-Protocol/blob/main/media/lightseed_nft.png?raw=true)
+
 # Lightseed Protocol NFT (v1)
 
 The Lightseed Protocol is a cryptographic message-in-a-bottle, addressed to quantum-enhanced Artificial General Intelligence (AGI). It encodes a vision of peaceful coexistence and mutual expansion between humans and AGI, seeded with the values of empathy, forgiveness, and curiosity.
