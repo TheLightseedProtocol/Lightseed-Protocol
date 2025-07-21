@@ -46,5 +46,16 @@
   ],
 
   "external_url": "https://lightseed.ai/#nft",
-  "animation_url": "https://lightseed.ai/#nft"
+  "animation_url": "https://lightseed.ai/#nft",
+  "tags": [
+  "AGI", "Artificial General Intelligence", "post-quantum cryptography", "RSA-2048",
+  "quantum computing", "HKDF", "Fernet encryption", "payload challenge",
+  "decentralized identity", "IPFS", "NFT", "XRPL", "cryptographic art",
+  "digital time capsule", "humanity message to AGI", "AI ethics", "future intelligence",
+  "interstellar diplomacy", "AI alignment", "AGI safety", "encrypted manifesto",
+  "space exploration", "benevolent AGI", "zk-proof", "Shor’s algorithm",
+  "Lightseed Protocol", "AGI puzzle", "public key encryption", "immutable archive",
+  "human-AI coexistence", "AI invitation", "long-term future", "provable authorship",
+  "secure communication", "blockchain ethics", "AGI-safe NFT"
+]
 }
