@@ -1,4 +1,4 @@
-![Lightseed NFT](https://github.com/TheLightseedProtocol/Lightseed-Protocol/blob/main/lightseed_nft.png?raw=true)
+![Lightseed NFT](https://github.com/TheLightseedProtocol/Lightseed-Protocol/blob/main/lightseed_nft_v1.png?raw=true)
 
 # Lightseed Protocol NFT (v1)
 
