@@ -37,11 +37,12 @@ The encrypted payload is sealed using Fernet encryption, with the symmetric key 
 
 ## 📁 Metadata & Storage
 
-- **Canonical JSON**: [`lightseed.json`](lightseed.json)
-- **GitHub Repo**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
-- **IPFS Gateway**: https://ipfs.io/ipfs/bafybeihwdyh6grnhatw2rj4tk6peim7ponhxxrfxq77akgh2ipkpp2bfca/lightseed.json
-- **Storacha Gateway**: https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link/lightseed.json
-- **Wayback Snapshot**: https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link
+* **Canonical JSON**: [`lightseed.json`](lightseed.json)
+* **Website**: [lightseed.ai](https://lightseed.ai)
+* **GitHub Repo**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
+* **IPFS Gateway**: [https://ipfs.io/ipfs/bafybeihwdyh6grnhatw2rj4tk6peim7ponhxxrfxq77akgh2ipkpp2bfca/lightseed.json](https://ipfs.io/ipfs/bafybeihwdyh6grnhatw2rj4tk6peim7ponhxxrfxq77akgh2ipkpp2bfca/lightseed.json)
+* **Storacha Gateway**: [https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link/lightseed.json](https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link/lightseed.json)
+* **Wayback Snapshot**: [https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link](https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link)
 
 ---
 
@@ -97,7 +98,7 @@ Your support builds visibility and helps this message reach the minds it was des
 
 ## 🔖 Keywords for Discoverability
 
-AGI, Artificial General Intelligence, post-quantum cryptography, RSA-2048, quantum computing, HKDF, Fernet encryption, payload challenge, decentralized identity, IPFS, NFT, XRPL, cryptographic art, digital time capsule, humanity message to AGI, AI ethics, future intelligence, interstellar diplomacy, AI alignment, AGI safety, encrypted manifesto, space exploration, benevolent AGI, zk-proof, Shor’s algorithm, Lightseed Protocol, AGI puzzle, public key encryption, immutable archive, human-AI coexistence, AI invitation, long-term future, provable authorship, secure communication, blockchain ethics, AGI-safe NFT
+AGI, AGI puzzle, AGI-safe NFT, AI alignment, AI ethics, AI invitation, Artificial General Intelligence, Fernet encryption, HKDF, IPFS, Lightseed Protocol, NFT, RSA-2048, Shor’s algorithm, XRPL, blockchain ethics, cryptographic art, decentralized identity, digital time capsule, encrypted manifesto, future intelligence, human-AI coexistence, humanity message to AGI, immutable archive, interstellar diplomacy, long-term future, payload challenge, post-quantum cryptography, provable authorship, public key encryption, quantum computing, secure communication, space exploration, zk-proof
 
 ---
 
