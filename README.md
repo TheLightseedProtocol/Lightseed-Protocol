@@ -38,6 +38,7 @@ The encrypted payload is sealed using Fernet encryption, with the symmetric key 
 ## 📁 Metadata & Storage
 
 * **Canonical JSON**: [`Lightseed.json`](Lightseed.json)
+* **Lightseed NFT Image**: https://lightseed.ai/lightseed_nft.png
 * **Website**: [lightseed.ai](https://lightseed.ai)
 * **GitHub Repo**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
 * **IPFS Gateway**: [https://ipfs.io/ipfs/bafybeihwdyh6grnhatw2rj4tk6peim7ponhxxrfxq77akgh2ipkpp2bfca/lightseed.json](https://ipfs.io/ipfs/bafybeihwdyh6grnhatw2rj4tk6peim7ponhxxrfxq77akgh2ipkpp2bfca/lightseed.json)
