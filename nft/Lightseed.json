@@ -1,6 +1,6 @@
 {
   "name": "Lightseed Protocol v1 (Immutable)",
-  "image": "https://ipfs.io/ipfs/bafybeifwaq2ibrxvgtkj7r6omxmuroe7aopghirva3w6ptewppnus3kvby",
+  "image": "https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla",
   "description": "Immutable edition of the Lightseed quantum puzzle NFT. See full details in the README: https://github.com/TheLightseedProtocol/Lightseed-Protocol",
   "version": "1.0.0",
   "challenge": "Factor n to find p, derive the Fernet key, and decrypt the payload.",
