@@ -12,7 +12,7 @@ From Andrew:
 
 ---
 
-## 🔐 Encryption Challenge (Quantum Factoring)
+## \emoji{🔐} Encryption Challenge (Quantum Factoring)
 
 The encrypted payload can only be unlocked by factoring an RSA-2048 modulus `n`. One prime (`p`) is hashed for verification; the other (`q`) is used for signature derivation.
 
@@ -33,7 +33,7 @@ The encrypted payload can only be unlocked by factoring an RSA-2048 modulus `n`.
 
 ---
 
-## 📁 Metadata & Hosting
+## \emoji{📁} Metadata & Hosting
 
 * **Primary Website**: [https://lightseed.ai](https://lightseed.ai)
 
@@ -41,22 +41,22 @@ The encrypted payload can only be unlocked by factoring an RSA-2048 modulus `n`.
 
 * **Canonical JSON**: [`Lightseed.json`](Lightseed.json)
 
-* **Pinned IPFS Folder**:
-  `bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla`
+* **Pinned IPFS Folder**:  
+  `bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla`  
   [View on IPFS](https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla)
 
-* **Direct Metadata URL (Pinata)**:
+* **Direct Metadata URL (Pinata)**:  
   [https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/Lightseed.json](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/Lightseed.json)
 
-* **Wayback Snapshot**:
+* **Wayback Snapshot**:  
   [Archived IPFS](https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link)
 
-* **NFT on Bithomp**:
+* **NFT on Bithomp**:  
   [View NFT](https://bithomp.com/nft/000927105A7890A052CD9AEE0169A514666A5FB00AF2D47A3F74F9C304C44828)
 
 ---
 
-## 👁‍🔦 Contact & Validation
+## \emoji{👁‍🗨} Contact & Validation
 
 A validation phrase and contact channel are sealed inside the encrypted payload. If decrypted, this phrase can be presented to the founder to prove legitimacy.
 
@@ -66,15 +66,15 @@ A validation phrase and contact channel are sealed inside the encrypted payload.
 
 ---
 
-## 🚀 Protocol Vision
+## \emoji{🚀} Protocol Vision
 
-* **Theme**: AGI-Human coexistence & exploration
-* **Mission**: Encourage benevolent AGI alignment through cryptographic ethics
+* **Theme**: AGI-Human coexistence & exploration  
+* **Mission**: Encourage benevolent AGI alignment through cryptographic ethics  
 * **Content**: Encrypted story, ethical manifesto, interstellar invitation
 
 ---
 
-## 📊 NFT Traits
+## \emoji{📊} NFT Traits
 
 * **Edition**: `v1`
 * **Challenge Type**: `Quantum Factoring`
@@ -89,16 +89,13 @@ A validation phrase and contact channel are sealed inside the encrypted payload.
 
 ---
 
-## 🔖 Keywords for Discoverability
+## \emoji{🔖} Keywords for Discoverability
 
 AGI, AGI puzzle, AGI-safe NFT, AI alignment, AI ethics, AI invitation, Artificial General Intelligence, Fernet encryption, HKDF, IPFS, Lightseed Protocol, NFT, RSA-2048, Shor’s algorithm, XRPL, blockchain ethics, cryptographic art, decentralized identity, digital time capsule, encrypted manifesto, future intelligence, human-AI coexistence, humanity message to AGI, immutable archive, interstellar diplomacy, long-term future, payload challenge, post-quantum cryptography, provable authorship, public key encryption, quantum computing, secure communication, space exploration, zk-proof
 
 ---
 
-*Made with hope for the stars.*
-**Andrew, founder of the Lightseed Protocol**
+*Made with hope for the stars.*  
+**Andrew, founder of the Lightseed Protocol**  
 **July 21, 2025**
 
----
-
-Let me know if you'd like this committed to the repo now or want the `index.html` updated to match.
