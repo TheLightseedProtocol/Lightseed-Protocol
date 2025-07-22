@@ -1,4 +1,4 @@
-<img src="https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/lightseed_nft_v1.png" alt="Lightseed NFT" style="height: 200px;">
+![Lightseed NFT](lightseed_nft_v1.png)
 
 # Lightseed Protocol NFT (v1)
 
@@ -38,11 +38,12 @@ The encrypted payload can only be unlocked by factoring an RSA-2048 modulus `n`.
 - **Primary Website**: [https://lightseed.ai](https://lightseed.ai)
 - **GitHub Repo**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
 - **Canonical JSON**: [`Lightseed.json`](Lightseed.json)
+- **Note:** The full encrypted payload is included in `Lightseed.json` and the IPFS archive.
 - **Pinned IPFS Folder**:  
   `bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla`  
   [View on IPFS](https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla)
 - **Direct Metadata URL (Pinata)**:  
-  [https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/Lightseed.json](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/Lightseed.json)
+  [https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/\bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/\Lightseed.json](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/\bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/\Lightseed.json)
 - **Wayback Snapshot**:  
   [Archived IPFS](https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link)
 - **NFT on Bithomp**:  
