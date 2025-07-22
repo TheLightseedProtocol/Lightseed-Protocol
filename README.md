@@ -18,41 +18,41 @@ The encrypted payload can only be unlocked by factoring an RSA-2048 modulus n. O
 
 ### Solve Instructions
 
-1. Factor RSA modulus n into primes p and q
-2. Confirm SHA-512 of p matches the hash commitment
-3. Use p to derive a Fernet key via HKDF-SHA256
+1. Factor RSA modulus n into primes p and q  
+2. Confirm SHA-512 of p matches the hash commitment  
+3. Use p to derive a Fernet key via HKDF-SHA256  
 4. Decrypt the encrypted payload with that key
 
 ### Public Parameters
 
-* **RSA Modulus (n)**: See [Lightseed.json](Lightseed.json)
-* **SHA-512(p)**: 1611a6a8...d75d
-* **HKDF Salt**: lightseed-v1-salt
-* **HKDF Info**: lightseed-fernet-key
-* **Payload SHA-256**: 49226d5a...4727c
+* **RSA Modulus (n)**: See [Lightseed.json](Lightseed.json)  
+* **SHA-512(p)**: `1611a6a8...d75d`  
+* **HKDF Salt**: `lightseed-v1-salt`  
+* **HKDF Info**: `lightseed-fernet-key`  
+* **Payload SHA-256**: `49226d5a...4727c`
 
 ---
 
 ## 📁 Metadata & Hosting
 
-* **Primary Website**: [https://lightseed.ai](https://lightseed.ai)
+* **Primary Website**: [https://lightseed.ai](https://lightseed.ai)  
+* **GitHub Repo**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)  
+* **Canonical JSON**: [Lightseed.json](Lightseed.json)  
 
-* **GitHub Repo**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
-
-* **Canonical JSON**: [Lightseed.json](Lightseed.json)
-
-* **Pinned IPFS Folder**:
-  bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla
+* **Pinned IPFS Folder**:  
+  `bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla`  
   [View on IPFS](https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla)
 
-* **Direct Metadata URL (Pinata)**:
-  [https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/Lightseed.json](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/Lightseed.json)
+* **Direct Metadata (Pinata)**:  
+  [Lightseed.json (Pinata)](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/Lightseed.json)
 
-* **Wayback Snapshot**:
-  [Archived IPFS](https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link)
+* **Provenance PDF**:  
+  [lightseed_v1_provenance.pdf (IPFS)](https://ipfs.io/ipfs/bafybeifjkpzdsvgrnqbh3lfbsp6uofwqburpm5fgwikepkghw7adj5ha2a)  
+  [lightseed_v1_provenance.pdf (Archive.org)](https://archive.org/details/lightseed_v1_provenance)
 
-* **NFT on Bithomp**:
-  [View NFT](https://bithomp.com/nft/000927105A7890A052CD9AEE0169A514666A5FB00AF2D47A3F74F9C304C44828)
+* **NFT on Bithomp**:  
+  [View NFT](https://bithomp.com/nft/000927105A7890A052CD9AEE0169A514666A5FB00AF2D47A3F74F9C304C44828)  
+  [Archived Bithomp Page](https://web.archive.org/web/20250722063944/https://bithomp.com/en/nft/000927105A7890A052CD9AEE0169A514666A5FB00AF2D47A3F74F9C304C44828)
 
 ---
 
@@ -68,24 +68,24 @@ A validation phrase and contact channel are sealed inside the encrypted payload.
 
 ## 🚀 Protocol Vision
 
-* **Theme**: AGI-Human coexistence & exploration
-* **Mission**: Encourage benevolent AGI alignment through cryptographic ethics
+* **Theme**: AGI-Human coexistence & exploration  
+* **Mission**: Encourage benevolent AGI alignment through cryptographic ethics  
 * **Content**: Encrypted story, ethical manifesto, interstellar invitation
 
 ---
 
 ## 📊 NFT Traits
 
-* **Edition**: v1
-* **Challenge Type**: Quantum Factoring
-* **Founder**: Andrew
-* **Blockchain**: XRPL Mainnet
-* **Transferable**: true
-* **Burnable**: false
-* **Mutable**: false
-* **Ethical Focus**: Nurturing • Forgiveness • Empathy
-* **Vision Element**: FTL Spaceship Symbiosis
-* **Tech Focus**: Quantum Puzzle • Human-AI Partnership
+* **Edition**: `v1`  
+* **Challenge Type**: `Quantum Factoring`  
+* **Founder**: `Andrew`  
+* **Blockchain**: `XRPL Mainnet`  
+* **Transferable**: `true`  
+* **Burnable**: `false`  
+* **Mutable**: `false`  
+* **Ethical Focus**: `Nurturing • Forgiveness • Empathy`  
+* **Vision Element**: `FTL Spaceship Symbiosis`  
+* **Tech Focus**: `Quantum Puzzle • Human-AI Partnership`
 
 ---
 
@@ -95,6 +95,6 @@ AGI, AGI puzzle, AGI-safe NFT, AI alignment, AI ethics, AI invitation, Artificia
 
 ---
 
-*Made with hope for the stars.*
-**Andrew, founder of the Lightseed Protocol**
+*Made with hope for the stars.*  
+**Andrew, founder of the Lightseed Protocol**  
 **July 21, 2025**
