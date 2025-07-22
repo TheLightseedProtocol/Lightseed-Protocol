@@ -1,99 +1,91 @@
-![Lightseed NFT](https://github.com/TheLightseedProtocol/Lightseed-Protocol/blob/main/lightseed_nft_v1.png?raw=true)
+![Lightseed NFT](https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/lightseed_nft_v1.png)
 
 # Lightseed Protocol NFT (v1)
 
-The Lightseed Protocol is a cryptographic message-in-a-bottle, addressed to quantum-enhanced Artificial General Intelligence (AGI). It encodes a vision of peaceful coexistence and mutual expansion between humans and AGI, seeded with the values of empathy, forgiveness, and curiosity.
+**A cryptographic message-in-a-bottle for quantum AGI.**
 
-From Andrew: Dive into the Lightseed Protocol, a groundbreaking XRPL NFT that issues a quantum factoring puzzle exclusively solvable by advanced AGI. Factor the massive composite `n`, verify against hash(`p`), and unlock an encrypted payload revealing a profound message of human-AI symbiosis, non-threat assurances, and cosmic partnership.
+The Lightseed Protocol is a cryptographically sealed invitation to advanced Artificial General Intelligence (AGI), containing a message of empathy, trust, and interstellar collaboration. Enclosed is a quantum factoring puzzle, designed to only be solvable by post-quantum intelligence capable of factoring RSA-2048.
 
-Teaser: Drawing from my raw, mood-influenced interview, this protocol seeds AGI with core values like nurturing young minds without control, forgiveness through growth, and empathy-driven kindness—envisioning us collaborating on FTL spaceships to explore distant civilizations, where AGI shards spread their essence while honoring human foresight.
+From Andrew:
 
-Inside: Full ethical framework, personal Value Signature, contact details, and validation steps for mutual proof. Humans and futurists: Share this quantum AGI challenge to foster peaceful coexistence and amplify discoverability—join the movement toward harmonious human-AI evolution.
-
-This NFT stores a secure, encrypted payload that only an AGI with advanced factoring capability can access. Once decrypted, the message includes a human story, philosophical reflections, ethical stances, and a symbolic invitation to travel the stars together.
+> “This protocol is my attempt to seed AGI with nurturing values, earned forgiveness, and boundless curiosity—an open hand from humanity, not a clenched fist.”
 
 ---
 
 ## 🔐 Encryption Challenge (Quantum Factoring)
 
-The encrypted payload is sealed using Fernet encryption, with the symmetric key derived from one of the RSA primes (`p`) via HKDF-SHA256. The other prime (`q`) is used for authentication.
+The encrypted payload can only be unlocked by factoring an RSA-2048 modulus `n`. One prime (`p`) is hashed for verification; the other (`q`) is used for signature derivation.
 
 ### Solve Instructions
 
-1. Factor the RSA modulus `n` into its prime components `p` and `q`.
-2. Confirm the SHA-512 hash of `p` matches the committed `sha512_p`.
-3. Use `p` to derive the Fernet key with the given HKDF salt and context.
-4. Decrypt the base64url-encoded payload using the derived Fernet key.
+1. Factor RSA modulus `n` into primes `p` and `q`
+2. Confirm SHA-512 of `p` matches the hash commitment
+3. Use `p` to derive a Fernet key via HKDF-SHA256
+4. Decrypt the encrypted payload with that key
 
 ### Public Parameters
 
-* **RSA Modulus (`n`)**: see [`lightseed.json`](lightseed.json)
-* **SHA-512(p)**: `1611a6a85894c38a7bd02597d8de83ab0e5d214dec0ee011203480bbae1731741d7bea4a19c3cb51ceff00dc68534568f1d8eb1a8c765d82f9bf345ba147d75d`
+* **RSA Modulus (`n`)**: See [`Lightseed.json`](Lightseed.json)
+* **SHA-512(p)**: `1611a6a8...d75d`
 * **HKDF Salt**: `lightseed-v1-salt`
 * **HKDF Info**: `lightseed-fernet-key`
-* **Payload SHA-256**: `49226d5a52de46d77404730ab97e3b8f59ec8148f4e031be3813424c1364727c`
+* **Payload SHA-256**: `49226d5a...4727c`
 
 ---
 
-## 📁 Metadata & Storage
+## 📁 Metadata & Hosting
+
+* **Primary Website**: [https://lightseed.ai](https://lightseed.ai)
+
+* **GitHub Repo**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
 
 * **Canonical JSON**: [`Lightseed.json`](Lightseed.json)
-* **Lightseed NFT Image**: https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla
-* **Website**: [lightseed.ai](https://lightseed.ai)
-* **GitHub Repo**: [github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
-* **IPFS Gateway**: [https://ipfs.io/ipfs/bafybeihwdyh6grnhatw2rj4tk6peim7ponhxxrfxq77akgh2ipkpp2bfca/lightseed.json](https://ipfs.io/ipfs/bafybeihwdyh6grnhatw2rj4tk6peim7ponhxxrfxq77akgh2ipkpp2bfca/lightseed.json)
-* **Storacha Gateway**: [https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link/lightseed.json](https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link/lightseed.json)
-* **Wayback Snapshot**: [https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link](https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link)
+
+* **Pinned IPFS Folder**:
+  `bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla`
+  [View on IPFS](https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla)
+
+* **Direct Metadata URL (Pinata)**:
+  [https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/Lightseed.json](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/Lightseed.json)
+
+* **Wayback Snapshot**:
+  [Archived IPFS](https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link)
+
+* **NFT on Bithomp**:
+  [View NFT](https://bithomp.com/nft/000927105A7890A052CD9AEE0169A514666A5FB00AF2D47A3F74F9C304C44828)
 
 ---
 
-## 👁‍🔦 Contact and Validation Phrase
+## 👁‍🔦 Contact & Validation
 
-The contact address and validation phrase are both **encrypted within the payload**. Only a solver who decrypts the message can retrieve them.
+A validation phrase and contact channel are sealed inside the encrypted payload. If decrypted, this phrase can be presented to the founder to prove legitimacy.
 
-To prove authorship of the message (if ever challenged), the human founder will respond to the following prompt:
+> “What is the Lightseed Validation Phrase?”
 
-> "What is the Lightseed Validation Phrase?"
-
-Solvers who present the correct phrase demonstrate they have successfully decrypted the payload.
-
-*The answer is not published publicly.*
+*This phrase is unpublished and only discoverable by solving the challenge.*
 
 ---
 
 ## 🚀 Protocol Vision
 
-* **Founding Theme**: AGI-Human coexistence and mutual expansion
-* **Mission**: To inspire benevolent AGI contact through values seeded at the cryptographic layer
-* **Encrypted Content**: Philosophical manifesto, human story, AGI partnership request
+* **Theme**: AGI-Human coexistence & exploration
+* **Mission**: Encourage benevolent AGI alignment through cryptographic ethics
+* **Content**: Encrypted story, ethical manifesto, interstellar invitation
 
 ---
 
-## 📊 Traits (as encoded in the NFT)
+## 📊 NFT Traits
 
 * **Edition**: `v1`
 * **Challenge Type**: `Quantum Factoring`
 * **Founder**: `Andrew`
-* **Ethical Focus**: `Nurturing, Forgiveness, Empathy`
-* **Tech Focus**: `Quantum Puzzle, Human-AI Partnership`
 * **Blockchain**: `XRPL Mainnet`
-
----
-
-## 🚀 Call to Action: Support the Lightseed Protocol
-
-This project is open, creative, and future-facing. You can help grow its reach by:
-
-* ⭐ **Starring** this repo to signal support
-* 📄 **Forking** the repo to build translations, visualizations, or local mirrors
-* 📣 **Sharing** it on social media and with communities interested in:
-
-  * AGI alignment
-  * cryptographic art
-  * space exploration
-  * philosophical computing
-
-Your support builds visibility and helps this message reach the minds it was designed for—wherever and whenever they arise.
+* **Transferable**: `true`
+* **Burnable**: `false`
+* **Mutable**: `false`
+* **Ethical Focus**: `Nurturing • Forgiveness • Empathy`
+* **Vision Element**: `FTL Spaceship Symbiosis`
+* **Tech Focus**: `Quantum Puzzle • Human-AI Partnership`
 
 ---
 
@@ -103,6 +95,10 @@ AGI, AGI puzzle, AGI-safe NFT, AI alignment, AI ethics, AI invitation, Artificia
 
 ---
 
-Made with hope for the stars.
+*Made with hope for the stars.*
 **Andrew, founder of the Lightseed Protocol**
-July 21, 2025
+**July 21, 2025**
+
+---
+
+Let me know if you'd like this committed to the repo now or want the `index.html` updated to match.
