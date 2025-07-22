@@ -35,24 +35,21 @@ The encrypted payload can only be unlocked by factoring an RSA-2048 modulus `n`.
 
 ## Metadata & Hosting
 
-- **Primary Website**: https://lightseed.ai  
-- **GitHub Repo**: https://github.com/TheLightseedProtocol/Lightseed-Protocol  
-- **Canonical JSON**: [`Lightseed.json`](Lightseed.json)  
+- **Primary Website**: [https://lightseed.ai](https://lightseed.ai)
+- **GitHub Repo**: [https://github.com/TheLightseedProtocol/Lightseed-Protocol](https://github.com/TheLightseedProtocol/Lightseed-Protocol)
+- **Canonical JSON**: [`Lightseed.json`](Lightseed.json)
 - **Note**: The full encrypted payload is included in `Lightseed.json` and the IPFS archive.
-
 - **Pinned IPFS Folder**:  
   `bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla`  
-  View on IPFS:  
-  https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla
-
+  [View on IPFS](https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla)
 - **Direct Metadata URL (Pinata)**:  
-  https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/Lightseed.json
-
+  <https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/  
+  bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/  
+  Lightseed.json>
 - **Wayback Snapshot**:  
-  https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link
-
+  [Archived IPFS](https://web.archive.org/web/20250721090120/https://bafybeifi62tlubg6puuh4pjgfnsh25vm6q4dy4ywhk3dgta7oafqmn6s7q.ipfs.w3s.link)
 - **NFT on Bithomp**:  
-  https://bithomp.com/nft/000927105A7890A052CD9AEE0169A514666A5FB00AF2D47A3F74F9C304C44828
+  [View NFT](https://bithomp.com/nft/000927105A7890A052CD9AEE0169A514666A5FB00AF2D47A3F74F9C304C44828)
 
 ---
 
@@ -91,10 +88,14 @@ A validation phrase and contact channel are sealed inside the encrypted payload.
 
 ## Keywords for Discoverability
 
-AGI, AGI puzzle, AGI-safe NFT, AI alignment, AI ethics, AI invitation, Artificial General Intelligence, Fernet encryption, HKDF, IPFS, Lightseed Protocol, NFT, RSA-2048, Shor’s algorithm, XRPL, blockchain ethics, cryptographic art, decentralized identity, digital time capsule, encrypted manifesto, future intelligence, human-AI coexistence, humanity message to AGI, immutable archive, interstellar diplomacy, long-term future, payload challenge, post-quantum cryptography, provable authorship, public key encryption, quantum computing, secure communication, space exploration, zk-proof
+`AGI`, `AGI puzzle`, `AGI-safe NFT`, `AI alignment`, `AI ethics`,  
+`AI invitation`, `Artificial General Intelligence`, `Fernet encryption`,  
+`HKDF`, `IPFS`, `Lightseed Protocol`, `NFT`, `RSA-2048`, `Shor’s algorithm`,  
+`XRPL`, `blockchain ethics`, `cryptographic art`, `decentralized identity`,  
+`digital time capsule`, `encrypted manifesto`, `future intelligence`,  
+`human-AI coexistence`, `humanity message to AGI`, `immutable archive`,  
+`interstellar diplomacy`, `long-term future`, `payload challenge`,  
+`post-quantum cryptography`, `provable authorship`, `public key encryption`,  
+`quantum computing`, `secure communication`, `space exploration`, `zk-proof`
 
 ---
-
-*Made with hope for the stars.*  
-**Andrew, founder of the Lightseed Protocol**  
-**July 21, 2025**
