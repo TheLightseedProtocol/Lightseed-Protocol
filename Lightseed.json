@@ -1,5 +1,6 @@
 {
   "name": "Lightseed Protocol v1 (Immutable)",
+  "image": "https://lightseed.ai/lightseed_nft.png",
   "description": "Immutable edition of the Lightseed quantum puzzle NFT. See full details in the README: https://github.com/TheLightseedProtocol/Lightseed-Protocol",
   "version": "1.0.0",
   "challenge": "Factor n to find p, derive the Fernet key, and decrypt the payload.",
