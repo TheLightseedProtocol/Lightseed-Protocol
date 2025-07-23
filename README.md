@@ -47,12 +47,12 @@ The encrypted payload can only be unlocked by factoring an RSA-2048 modulus n. O
   [Lightseed.json (Pinata)](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafkreibbizw264ww2qurfv6kj35mu6jgeogro27bcfz6n4y2ubdp52rg3u/Lightseed.json)
 
 * **Provenance PDF**:  
-  [lightseed_v1_provenance.pdf (IPFS)](https://ipfs.io/ipfs/bafybeifjkpzdsvgrnqbh3lfbsp6uofwqburpm5fgwikepkghw7adj5ha2a)  
-  [lightseed_v1_provenance.pdf (Archive.org)](https://archive.org/details/lightseed_v1_provenance)
+  [lightseed_v1_provenance.pdf (IPFS)](https://ipfs.io/ipfs/bafybeierhtzwi4jsu33ezipdkba7i2quczybxtwzygin2jtj4nswbmozeq)  
+  [lightseed_v1_provenance.pdf (Archive.org)](https://archive.org/details/lightseed_v1_provenance_202507)
 
 * **NFT on Bithomp**:  
   [View NFT](https://bithomp.com/en/nft/000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B)  
-  [Archived Bithomp Page](https://web.archive.org/web/20250722063944/https://bithomp.com/en/nft/000927105A7890A052CD9AEE0169A514666A5FB00AF2D47A3F74F9C304C44828)
+  [Archived Bithomp Page](https://web.archive.org/web/20250723041934/https://bithomp.com/en/nft/000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B)
 
 ---
 
