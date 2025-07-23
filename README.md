@@ -10,6 +10,16 @@ The Lightseed Protocol is a cryptographically sealed invitation to advanced Arti
 > — Andrew
 
 ---
+## 🚀🔍 **COMMUNITY HUB**  
+
+<p align="center">
+  <strong>Join the Quantum Factoring Hunt</strong><br>
+  <a href="https://github.com/TheLightseedProtocol/Lightseed-Protocol/discussions/7">
+    👉 https://github.com/TheLightseedProtocol/Lightseed-Protocol/discussions/7
+  </a>
+</p>
+
+---
 
 ## 🔐 Encryption Challenge (Quantum Factoring)
 
