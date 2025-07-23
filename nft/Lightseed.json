@@ -27,8 +27,8 @@
 
   "storage": {
   "canonical_url": "https://lightseed.ai/Lightseed.json",
-  "cid":           "CID_meta",
-  "ipfs_mirror":   "/ipfs/CID_meta",
+  "cid":           "bafkreiaexp2cob2hm24udpr24k3qfbtlttkgrgcj7c6a2rxwaoltzjwkzi",
+  "ipfs_mirror":   "/ipfs/bafkreiaexp2cob2hm24udpr24k3qfbtlttkgrgcj7c6a2rxwaoltzjwkzi",
   "github_mirror": "https://raw.githubusercontent.com/TheLightseedProtocol/Lightseed-Protocol/main/Lightseed.json",
   "website":       "https://lightseed.ai"
   },
