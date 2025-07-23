@@ -44,7 +44,7 @@ The encrypted payload can only be unlocked by factoring an RSA-2048 modulus n. O
   [View on IPFS](https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla)
 
 * **Direct Metadata (Pinata)**:  
-  [Lightseed.json (Pinata)](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/Lightseed.json)
+  [Lightseed.json (Pinata)](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafkreibbizw264ww2qurfv6kj35mu6jgeogro27bcfz6n4y2ubdp52rg3u/Lightseed.json)
 
 * **Provenance PDF**:  
   [lightseed_v1_provenance.pdf (IPFS)](https://ipfs.io/ipfs/bafybeifjkpzdsvgrnqbh3lfbsp6uofwqburpm5fgwikepkghw7adj5ha2a)  
