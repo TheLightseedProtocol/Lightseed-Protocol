@@ -40,7 +40,7 @@ The encrypted payload can only be unlocked by factoring an RSA-2048 modulus n. O
 * **Canonical JSON**: [Lightseed.json](Lightseed.json)  
 
 * **Pinned IPFS Folder**:  
-  `bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla`  
+  `bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi`  
   [View on IPFS](https://ipfs.io/ipfs/bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi)
 
 * **Direct Metadata (Pinata)**:  
