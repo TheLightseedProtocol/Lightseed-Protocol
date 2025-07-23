@@ -51,7 +51,7 @@ The encrypted payload can only be unlocked by factoring an RSA-2048 modulus n. O
   [lightseed_v1_provenance.pdf (Archive.org)](https://archive.org/details/lightseed_v1_provenance)
 
 * **NFT on Bithomp**:  
-  [View NFT](https://bithomp.com/nft/000927105A7890A052CD9AEE0169A514666A5FB00AF2D47A3F74F9C304C44828)  
+  [View NFT](https://bithomp.com/en/nft/000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B)  
   [Archived Bithomp Page](https://web.archive.org/web/20250722063944/https://bithomp.com/en/nft/000927105A7890A052CD9AEE0169A514666A5FB00AF2D47A3F74F9C304C44828)
 
 ---
