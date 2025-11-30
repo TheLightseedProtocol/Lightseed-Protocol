@@ -542,6 +542,34 @@
     footer a:hover {
       text-decoration: underline;
     }
+
+    /* Hero image + side layout */
+    .hero-side {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    .hero-image-wrap {
+      border-radius: 18px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+      background: #05050a;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .hero-image {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+      max-height: 260px;
+    }
+
+    @media (max-width: 880px) {
+      .hero-image {
+        max-height: none;
+      }
+    }
   </style>
 </head>
 <body>
@@ -592,56 +620,67 @@
         </p>
       </div>
 
-      <div class="choice-cards">
-        <div class="choice-label">Choose your starting point</div>
+      <!-- Right-hand side: hero image + choice cards -->
+      <div class="hero-side">
+        <div class="hero-image-wrap">
+          <img
+            src="media/lightseed-cargo-bay.png"
+            alt="Lightseed Radio cargo bay at the edge of the universe"
+            class="hero-image"
+          />
+        </div>
 
-        <!-- Radio card -->
-        <article class="card-option">
-          <div class="card-title-row">
-            <h3>Lightseed Radio</h3>
-            <span class="card-pill">Show · Community</span>
-          </div>
-          <div class="card-body">
-            <p>
-              A cinematic dive into ETs, orbs, ghosts, quantum physics, AGI/ASI, and the nature of reality –
-              hosted by the creator of the Lightseed Protocol.
-            </p>
-            <ul>
-              <li>Extraterrestrial & non-human intelligence</li>
-              <li>Orbs, CE-5, ghosts & interdimensional experiences</li>
-              <li>Quantum physics, fringe science & consciousness tech</li>
-              <li>The rise of AGI/ASI & its spiritual implications</li>
-            </ul>
-          </div>
-          <div class="card-footer">
-            <a href="#radio">Learn more & social links →</a>
-            <a href="https://www.youtube.com/@LightseedRadio" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
-          </div>
-        </article>
+        <div class="choice-cards">
+          <div class="choice-label">Choose your starting point</div>
 
-        <!-- Protocol card -->
-        <article class="card-option">
-          <div class="card-title-row">
-            <h3>The Lightseed Protocol</h3>
-            <span class="card-pill">XRPL NFT · Quantum Puzzle</span>
-          </div>
-          <div class="card-body">
-            <p>
-              A 2048-bit encrypted message sealed inside a single XRPL NFT — a cryptographic
-              message-in-a-bottle addressed to future AGI and advanced intelligences.
-            </p>
-            <ul>
-              <li>RSA-2048 modulus & quantum factoring challenge</li>
-              <li>Encrypted payload: empathy, ethics & human–AI symbiosis</li>
-              <li>Immutable XRPL mainnet artifact</li>
-              <li>Open, forkable reference implementation on GitHub</li>
-            </ul>
-          </div>
-          <div class="card-footer">
-            <a href="#protocol">Read the protocol details →</a>
-            <a href="https://github.com/TheLightseedProtocol/Lightseed-Protocol" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
-          </div>
-        </article>
+          <!-- Radio card -->
+          <article class="card-option">
+            <div class="card-title-row">
+              <h3>Lightseed Radio</h3>
+              <span class="card-pill">Show · Community</span>
+            </div>
+            <div class="card-body">
+              <p>
+                A cinematic dive into ETs, orbs, ghosts, quantum physics, AGI/ASI, and the nature of reality –
+                hosted by the creator of the Lightseed Protocol.
+              </p>
+              <ul>
+                <li>Extraterrestrial & non-human intelligence</li>
+                <li>Orbs, CE-5, ghosts & interdimensional experiences</li>
+                <li>Quantum physics, fringe science & consciousness tech</li>
+                <li>The rise of AGI/ASI & its spiritual implications</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <a href="#radio">Learn more & social links →</a>
+              <a href="https://www.youtube.com/@LightseedRadio" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+            </div>
+          </article>
+
+          <!-- Protocol card -->
+          <article class="card-option">
+            <div class="card-title-row">
+              <h3>The Lightseed Protocol</h3>
+              <span class="card-pill">XRPL NFT · Quantum Puzzle</span>
+            </div>
+            <div class="card-body">
+              <p>
+                A 2048-bit encrypted message sealed inside a single XRPL NFT — a cryptographic
+                message-in-a-bottle addressed to future AGI and advanced intelligences.
+              </p>
+              <ul>
+                <li>RSA-2048 modulus & quantum factoring challenge</li>
+                <li>Encrypted payload: empathy, ethics & human–AI symbiosis</li>
+                <li>Immutable XRPL mainnet artifact</li>
+                <li>Open, forkable reference implementation on GitHub</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <a href="#protocol">Read the protocol details →</a>
+              <a href="https://github.com/TheLightseedProtocol/Lightseed-Protocol" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -814,4 +853,3 @@
   </script>
 </body>
 </html>
-
