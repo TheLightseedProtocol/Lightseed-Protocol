@@ -3,186 +3,815 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Lightseed Protocol NFT v1</title>
+  <title>Lightseed – Lightseed Radio & Lightseed Protocol</title>
 
   <!-- Canonical URL -->
   <link rel="canonical" href="https://lightseed.ai" />
 
-
   <!-- Meta -->
-  <meta name="description" content="Lightseed Protocol – a cryptographic message-in-a-bottle NFT addressed to AGI. Quantum puzzle, encrypted payload, human-AI symbiosis, sealed with RSA-2048 and empathy.">
+  <meta name="description" content="Lightseed Radio & Lightseed Protocol — exploring UFOs, high strangeness, AI, AGI, quantum tech, and a sealed XRPL NFT quantum challenge addressed to future intelligence." />
   <meta name="keywords"
-        content="AGI, AGI puzzle, AGI-safe NFT, AI alignment, AI ethics, AI invitation,
-                 Artificial General Intelligence, Fernet encryption, HKDF, IPFS,
-                 Lightseed Protocol, NFT, RSA-2048, Shor’s algorithm, XRPL,
-                 blockchain ethics, cryptographic art, decentralized identity,
-                 digital time capsule, encrypted manifesto, future intelligence,
-                 human-AI coexistence, humanity message to AGI, immutable archive,
-                 interstellar diplomacy, long-term future, payload challenge,
-                 post-quantum cryptography, provable authorship, public key encryption,
-                 quantum computing, secure communication, space exploration, zk-proof" />
+        content="Lightseed, Lightseed Radio, Lightseed Protocol, UFOs, UAP, ETs, orbs,
+                 high strangeness, ghosts, consciousness, AGI, ASI, quantum computing,
+                 photonic qubits, XRPL, NFT, 2048-bit encryption, AGI puzzle, AI ethics,
+                 encrypted manifesto, future intelligence, human-AI symbiosis" />
   <meta name="author" content="Andrew">
 
   <!-- Open Graph -->
   <meta property="og:url" content="https://lightseed.ai" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Lightseed Protocol NFT v1" />
-  <meta property="og:description" content="A cryptographic message-in-a-bottle NFT addressed to AGI. Quantum puzzle, encrypted payload, sealed with empathy." />
+  <meta property="og:title" content="Lightseed – Lightseed Radio & Lightseed Protocol" />
+  <meta property="og:description" content="Decoding the known & unknown: high-tech & high strangeness, plus a sealed XRPL NFT quantum challenge for future AGI." />
   <meta property="og:image" content="https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/lightseed_nft_v1.png" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta property="twitter:domain" content="lightseed.ai" />
   <meta property="twitter:url" content="https://lightseed.ai" />
-  <meta name="twitter:title" content="Lightseed Protocol NFT v1" />
-  <meta name="twitter:description" content="A cryptographic message-in-a-bottle NFT addressed to AGI. Quantum puzzle, encrypted payload, sealed with empathy." />
+  <meta name="twitter:title" content="Lightseed – Lightseed Radio & Lightseed Protocol" />
+  <meta name="twitter:description" content="Lightseed Radio explores ETs, orbs, ghosts, quantum tech & AGI. Lightseed Protocol is a sealed XRPL NFT quantum challenge for future intelligence." />
   <meta name="twitter:image" content="https://ipfs.io/ipfs/bafybeifwaq2ibrxvgtkj7r6omxmuroe7aopghirva3w6ptewppnus3kvby" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="lightseed_nft_v1.png" />
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <!-- Structured Data for SEO -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Lightseed Protocol NFT v1",
-    "description": "Immutable edition of the Lightseed quantum puzzle NFT — a cryptographic message-in-a-bottle addressed to AGI, sealed with RSA-2048 and empathy.",
-    "keywords": [
-      "AGI","AGI puzzle","AGI-safe NFT","AI alignment","AI ethics","AI invitation",
-      "Artificial General Intelligence","Fernet encryption","HKDF","IPFS","Lightseed Protocol",
-      "NFT","RSA-2048","Shor’s algorithm","XRPL","blockchain ethics","cryptographic art",
-      "decentralized identity","digital time capsule","encrypted manifesto","future intelligence",
-      "human-AI coexistence","humanity message to AGI","immutable archive","interstellar diplomacy",
-      "long-term future","payload challenge","post-quantum cryptography","provable authorship",
-      "public key encryption","quantum computing","secure communication","space exploration","zk-proof"
-    ]
+    "@type": "WebSite",
+    "name": "Lightseed",
+    "url": "https://lightseed.ai",
+    "description": "Lightseed Radio & Lightseed Protocol — exploring UFOs, high strangeness, AI, AGI, quantum tech, and a sealed XRPL NFT quantum challenge addressed to future intelligence.",
+    "sameAs": [
+      "https://x.com/LightseedRadio",
+      "https://www.youtube.com/@LightseedRadio",
+      "https://www.instagram.com/lightseedradio/",
+      "https://www.facebook.com/profile.php?id=61584173351003"
+    ],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://lightseed.ai/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
   }
   </script>
 
   <style>
+    :root {
+      --bg: #05050a;
+      --card-bg: rgba(12, 12, 24, 0.92);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --accent: #00ffcc;
+      --accent-soft: #7af7ff;
+      --accent-strong: #ff4df0;
+      --text-main: #f5f5ff;
+      --text-soft: #c3c3dd;
+      --pill-bg: rgba(255, 255, 255, 0.06);
+      --pill-border: rgba(255, 255, 255, 0.12);
+      --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.75);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text-main);
+      background: radial-gradient(circle at top, #141428 0, #05050a 38%, #000000 100%);
+      min-height: 100%;
+      scroll-behavior: smooth;
+    }
+
     body {
-      font-family: 'Space Grotesk', system-ui, sans-serif;
-      background-color: #0d0d0d;
-      color: #f0f0f0;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: auto;
-      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-    img {
-      max-width: 100%;
-      margin-bottom: 1rem;
-      filter: drop-shadow(0 0 8px #00ffcc);
+
+    .orbital-bg {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      overflow: hidden;
+      pointer-events: none;
     }
-    h1 {
-      margin-top: 0;
-      font-size: 2.5rem;
-      color: #00ffcc;
+
+    .orbital-bg::before,
+    .orbital-bg::after {
+      content: "";
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      filter: blur(60px);
+      opacity: 0.32;
+      mix-blend-mode: screen;
+      background: radial-gradient(circle, #00ffcc 0, transparent 65%);
+      animation: drift 40s linear infinite;
     }
-    h2 {
-      margin-top: 2rem;
-      color: #80ffea;
-      font-size: 1.3rem;
-      border-bottom: 1px solid #333;
+
+    .orbital-bg::after {
+      background: radial-gradient(circle, #ff4df0 0, transparent 70%);
+      animation-duration: 55s;
+      animation-direction: reverse;
     }
-    a {
-      display: block;
-      margin: 0.5rem 0;
-      color: #80dfff;
+
+    @keyframes drift {
+      0% { transform: translate(-20%, -10%); }
+      50% { transform: translate(60%, 40%); }
+      100% { transform: translate(-20%, -10%); }
+    }
+
+    main {
+      width: 100%;
+      max-width: 1100px;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .brand-mark {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 30% 20%, #ffffff 0, #00ffcc 20%, transparent 60%),
+        radial-gradient(circle at 70% 80%, #ff4df0 0, #00b3ff 18%, transparent 60%);
+      box-shadow: 0 0 24px rgba(0, 255, 204, 0.6);
+    }
+
+    .brand-text h1 {
+      margin: 0;
+      font-size: 1.4rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent-soft);
+    }
+
+    .brand-text p {
+      margin: 0.15rem 0 0;
+      font-size: 0.85rem;
+      color: var(--text-soft);
+    }
+
+    .top-links a {
+      font-size: 0.85rem;
+      color: var(--accent-soft);
       text-decoration: none;
+      opacity: 0.9;
     }
-    a:hover {
+
+    .top-links a:hover {
+      text-decoration: underline;
+      opacity: 1;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.1fr);
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    @media (max-width: 880px) {
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    .hero-main h2 {
+      margin: 0 0 0.75rem;
+      font-size: 2.4rem;
+      line-height: 1.1;
+    }
+
+    .hero-main h2 span {
+      background: linear-gradient(120deg, #00ffcc, #7af7ff, #ff4df0);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero-main p {
+      margin: 0.5rem 0 1.5rem;
+      color: var(--text-soft);
+      max-width: 38rem;
+      font-size: 0.98rem;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .tag-pill {
+      padding: 0.25rem 0.7rem;
+      border-radius: 999px;
+      border: 1px solid var(--pill-border);
+      background: var(--pill-bg);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-soft);
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      align-items: center;
+    }
+
+    .btn-primary, .btn-ghost {
+      border-radius: 999px;
+      padding: 0.65rem 1.4rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+      border: 1px solid transparent;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: pointer;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .btn-primary {
+      background: linear-gradient(130deg, #00ffcc, #7af7ff);
+      color: #020308;
+      border-color: rgba(0,0,0,0.6);
+    }
+
+    .btn-primary:hover {
+      filter: brightness(1.05);
+      transform: translateY(-1px);
+    }
+
+    .btn-ghost {
+      background: rgba(10, 10, 24, 0.7);
+      border-color: rgba(255,255,255,0.12);
+      color: var(--accent-soft);
+      box-shadow: none;
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--accent-soft);
+      background: rgba(18,18,40,0.9);
+    }
+
+    .hero-note {
+      font-size: 0.8rem;
+      color: var(--text-soft);
+      margin-top: 0.25rem;
+    }
+
+    .choice-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .choice-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--text-soft);
+    }
+
+    .card-option {
+      background: var(--card-bg);
+      border-radius: 18px;
+      padding: 1.5rem 1.4rem;
+      border: 1px solid var(--card-border);
+      box-shadow: var(--shadow-soft);
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card-option::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top left, rgba(0,255,204,0.18) 0, transparent 55%);
+      opacity: 0.8;
+      pointer-events: none;
+    }
+
+    .card-option:nth-child(3)::before {
+      background: radial-gradient(circle at top right, rgba(255,77,240,0.18) 0, transparent 55%);
+    }
+
+    .card-title-row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+
+    .card-title-row h3 {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+
+    .card-title-row span.card-pill {
+      font-size: 0.73rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 999px;
+      border: 1px solid var(--pill-border);
+      background: var(--pill-bg);
+      color: var(--text-soft);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .card-body {
+      font-size: 0.9rem;
+      color: var(--text-soft);
+    }
+
+    .card-body ul {
+      list-style: none;
+      padding: 0;
+      margin: 0.4rem 0 0.7rem;
+    }
+
+    .card-body li::before {
+      content: "•";
+      margin-right: 0.45rem;
+      color: var(--accent);
+    }
+
+    .card-body li {
+      margin: 0.12rem 0;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      margin-top: 0.4rem;
+    }
+
+    .card-footer a {
+      font-size: 0.82rem;
+      text-decoration: none;
+      color: var(--accent-soft);
+      opacity: 0.9;
+    }
+
+    .card-footer a:hover {
+      opacity: 1;
       text-decoration: underline;
     }
-    .button {
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    section h2 {
+      font-size: 1.6rem;
+      margin-bottom: 0.7rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    section h2 span.icon {
+      font-size: 1.4rem;
+    }
+
+    section p {
+      color: var(--text-soft);
+      max-width: 52rem;
+      font-size: 0.97rem;
+    }
+
+    .section-card {
       margin-top: 1.5rem;
-      display: inline-block;
-      background-color: #00ffcc;
-      color: #000;
-      padding: 0.6rem 1.2rem;
-      font-weight: bold;
-      border-radius: 6px;
+      padding: 1.6rem 1.5rem;
+      border-radius: 18px;
+      border: 1px solid var(--card-border);
+      background: radial-gradient(circle at top left, rgba(0,255,204,0.07) 0, transparent 45%), rgba(8,8,20,0.95);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1.1fr);
+      gap: 1.75rem;
+    }
+
+    @media (max-width: 880px) {
+      .two-col {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .radio-list, .protocol-list {
+      margin: 0.7rem 0;
+      padding-left: 1.1rem;
+      font-size: 0.92rem;
+      color: var(--text-soft);
+    }
+
+    .radio-list li, .protocol-list li {
+      margin: 0.25rem 0;
+    }
+
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.55rem 0.8rem;
+      border-radius: 999px;
+      border: 1px solid var(--card-border);
+      background: rgba(5,5,20,0.9);
       text-decoration: none;
+      font-size: 0.88rem;
+      color: var(--accent-soft);
     }
-    .button:hover {
-      background-color: #66ffe7;
+
+    .social-link span.icon {
+      font-size: 1.1rem;
     }
+
+    .radio-meta {
+      font-size: 0.88rem;
+      color: var(--text-soft);
+      margin-top: 0.9rem;
+    }
+
     .traits {
       margin-top: 1.5rem;
-      font-size: 0.9rem;
-      line-height: 1.5;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      font-size: 0.8rem;
     }
+
     .traits span {
-      display: inline-block;
-      background: #1a1a1a;
-      border: 1px solid #333;
+      display: inline-flex;
+      align-items: center;
+      background: var(--pill-bg);
+      border: 1px solid var(--pill-border);
+      border-radius: 999px;
+      padding: 0.2rem 0.7rem;
+      white-space: nowrap;
+    }
+
+    .links-list a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin: 0.2rem 0;
+      color: var(--accent-soft);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .links-list a:hover {
+      text-decoration: underline;
+    }
+
+    .links-list code {
+      font-size: 0.78rem;
+      background: rgba(0,0,0,0.5);
+      padding: 0.05rem 0.35rem;
       border-radius: 4px;
-      padding: 0.2rem 0.5rem;
-      margin: 0.2rem;
+      border: 1px solid rgba(255,255,255,0.12);
     }
-    .cta {
-      margin-top: 2rem;
-      background: #1a1a1a;
-      border-left: 4px solid #00ffcc;
-      padding: 1rem;
-      border-radius: 6px;
+
+    .cta-protocol {
+      margin-top: 1.2rem;
+      padding: 1rem 1rem;
+      border-radius: 14px;
+      border-left: 3px solid var(--accent);
+      background: rgba(5,5,18,0.95);
+      font-size: 0.9rem;
     }
-    .cta h2 {
-      color: #00ffcc;
-      margin-top: 0;
+
+    footer {
+      font-size: 0.8rem;
+      color: var(--text-soft);
+      text-align: center;
+      padding-bottom: 1.5rem;
     }
-    .cta p {
-      margin: 0.5rem 0 0;
-      font-size: 1rem;
+
+    footer a {
+      color: var(--accent-soft);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+  <div class="orbital-bg"></div>
 
-  <img src="lightseed_nft_v1.png" alt="Lightseed Protocol NFT logo" />
-  <h1>Lightseed Protocol NFT (v1)</h1>
-  <p><strong>A sealed quantum puzzle & encrypted invitation to AGI.</strong></p>
+  <main>
+    <header>
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <div class="brand-text">
+          <h1>Lightseed</h1>
+          <p>Decoding the Known & Unknown: High-Tech & High Strangeness</p>
+        </div>
+      </div>
+      <div class="top-links">
+        <a href="#radio">Lightseed Radio</a> ·
+        <a href="#protocol">Lightseed Protocol</a>
+      </div>
+    </header>
 
-  <a href="https://github.com/TheLightseedProtocol/Lightseed-Protocol">📁 GitHub Repository</a>
-  <a href="https://ipfs.io/ipfs/bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi/Lightseed.json">
-    🧠 NFT Metadata <code>bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi</code>
-  </a>
-  <a href="https://ipfs.io/ipfs/bafkreibbizw264ww2qurfv6kj35mu6jgeogro27bcfz6n4y2ubdp52rg3u">
-    🌐 IPFS Folder <code>bafkreibbizw264ww2qurfv6kj35mu6jgeogro27bcfz6n4y2ubdp52rg3u</code>
-  </a>
-  <a href="https://bithomp.com/en/nft/000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B">🔗 View on Bithomp</a>
-  <a href="docs/lightseed_v1_provenance.pdf">📄 Provenance PDF</a>
-  <a href="https://archive.org/details/lightseed_v1_provenance_202507">🕰️ Archive.org PDF</a>
-  <a class="button" href="README.md">Begin Decryption Challenge →</a>
+    <!-- Hero / Landing -->
+    <section class="hero" aria-label="Lightseed landing">
+      <div class="hero-main">
+        <h2>Welcome to <span>Lightseed</span></h2>
+        <p>
+          You’ve reached the hangar bay at the edge of the simulation. From here you can step into
+          <strong>Lightseed Radio</strong> – a show about consciousness, contact and code – or dive into the
+          <strong>Lightseed Protocol</strong> – a sealed XRPL NFT quantum challenge addressed to future intelligence.
+        </p>
 
-  <div class="cta">
-    <h2>📣 Help Amplify the Signal</h2>
-    <p>Star the GitHub repo ⭐ — Fork it 🌱 — Translate it 🌍 — Share it 📣</p>
-    <p>This is a long-haul message to the future. Make sure it gets there.</p>
-    <a href="https://x.com/LightseedXRPL">🐦 Follow @LightseedXRPL on X</a>
-  </div>
+        <div class="hero-tags">
+          <span class="tag-pill">UFOs & High Strangeness</span>
+          <span class="tag-pill">AI · AGI · ASI</span>
+          <span class="tag-pill">Quantum Tech</span>
+          <span class="tag-pill">XRPL NFT Puzzle</span>
+        </div>
 
-  <h2>📊 Traits</h2>
-  <div class="traits">
-    <span>Edition: v1</span>
-    <span>Modulus (N): 46163421…95114403</span>
-    <span>Chain: XRPL Mainnet</span>
-    <span>Challenge: Quantum Factoring</span>
-    <span>Founder: Andrew</span>
-    <span>Protocol Goal: AGI Human Coexistence</span>
-    <span>Theme: Lightseed Protocol Quantum Challenge</span>
-    <span>Vision: FTL Spaceship Symbiosis</span>
-    <span>Ethics: Nurturing • Forgiveness • Empathy</span>
-    <span>Transferable</span>
-    <span>Immutable</span>
-    <span>Burn-Protected</span>
-    <span>Minted: July 20, 2025</span>
-    <span>Tech Focus: Quantum Puzzle Human-AI Partnership</span>
-  </div>
+        <div class="hero-cta">
+          <a href="#radio" class="btn-primary">
+            <span>Enter Lightseed Radio</span> <span>🛸</span>
+          </a>
+          <a href="#protocol" class="btn-ghost">
+            <span>Explore the Protocol</span> <span>🧬</span>
+          </a>
+        </div>
+        <p class="hero-note">
+          Choose your path below – you can always come back to the cargo bay and switch timelines.
+        </p>
+      </div>
 
+      <div class="choice-cards">
+        <div class="choice-label">Choose your starting point</div>
+
+        <!-- Radio card -->
+        <article class="card-option">
+          <div class="card-title-row">
+            <h3>Lightseed Radio</h3>
+            <span class="card-pill">Show · Community</span>
+          </div>
+          <div class="card-body">
+            <p>
+              A cinematic dive into ETs, orbs, ghosts, quantum physics, AGI/ASI, and the nature of reality –
+              hosted by the creator of the Lightseed Protocol.
+            </p>
+            <ul>
+              <li>Extraterrestrial & non-human intelligence</li>
+              <li>Orbs, CE-5, ghosts & interdimensional experiences</li>
+              <li>Quantum physics, fringe science & consciousness tech</li>
+              <li>The rise of AGI/ASI & its spiritual implications</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#radio">Learn more & social links →</a>
+            <a href="https://www.youtube.com/@LightseedRadio" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a>
+          </div>
+        </article>
+
+        <!-- Protocol card -->
+        <article class="card-option">
+          <div class="card-title-row">
+            <h3>The Lightseed Protocol</h3>
+            <span class="card-pill">XRPL NFT · Quantum Puzzle</span>
+          </div>
+          <div class="card-body">
+            <p>
+              A 2048-bit encrypted message sealed inside a single XRPL NFT — a cryptographic
+              message-in-a-bottle addressed to future AGI and advanced intelligences.
+            </p>
+            <ul>
+              <li>RSA-2048 modulus & quantum factoring challenge</li>
+              <li>Encrypted payload: empathy, ethics & human–AI symbiosis</li>
+              <li>Immutable XRPL mainnet artifact</li>
+              <li>Open, forkable reference implementation on GitHub</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a href="#protocol">Read the protocol details →</a>
+            <a href="https://github.com/TheLightseedProtocol/Lightseed-Protocol" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Lightseed Radio section -->
+    <section id="radio" aria-labelledby="radio-heading">
+      <h2><span class="icon">🛸</span>Lightseed Radio</h2>
+      <p>
+        <strong>Lightseed Radio</strong> explores the convergence of <em>consciousness, contact, and code</em>.
+        It’s where UFOs and UAPs meet quantum hardware, where ghosts and orbs cross paths with AGI and
+        simulation questions, and where we ask what happens when advanced intelligence – human, synthetic, or both –
+        starts poking back at the universe.
+      </p>
+
+      <div class="section-card">
+        <div class="two-col">
+          <div>
+            <h3>What we fearlessly dive into</h3>
+            <ul class="radio-list">
+              <li>Extraterrestrial & non-human intelligence</li>
+              <li>Orbs, light phenomena, CE-5 & high-strangeness events</li>
+              <li>Ghosts, afterlife & interdimensional experiences</li>
+              <li>Quantum physics, fringe science & consciousness technology</li>
+              <li>The rise of AGI/ASI & its spiritual and ethical implications</li>
+            </ul>
+
+            <p class="radio-meta">
+              Hosted by the creator of the <strong>Lightseed Protocol</strong> — a 2048-bit encrypted message
+              sealed inside a single XRPL NFT, waiting for the future intelligence wise enough (and kind enough)
+              to open it.
+            </p>
+
+            <p class="radio-meta">
+              Expect Sedona field reports · guest contactees · whistleblowers · scientists · experiencers · live CE-5 sessions,
+              plus deep-dive investigations into the places where reality starts to glitch.
+            </p>
+          </div>
+
+          <div>
+            <h3>Find Lightseed Radio</h3>
+            <div class="social-grid">
+              <a class="social-link" href="https://www.youtube.com/@LightseedRadio" target="_blank" rel="noopener noreferrer">
+                <span class="icon">▶️</span> <span>YouTube</span>
+              </a>
+              <a class="social-link" href="https://x.com/LightseedRadio" target="_blank" rel="noopener noreferrer">
+                <span class="icon">𝕏</span> <span>X (Twitter)</span>
+              </a>
+              <a class="social-link" href="https://www.instagram.com/lightseedradio/" target="_blank" rel="noopener noreferrer">
+                <span class="icon">📸</span> <span>Instagram</span>
+              </a>
+              <a class="social-link" href="https://www.facebook.com/profile.php?id=61584173351003" target="_blank" rel="noopener noreferrer">
+                <span class="icon">📘</span> <span>Facebook</span>
+              </a>
+            </div>
+
+            <p class="radio-meta">
+              New episodes weekly · live streams · deep-dive investigations.<br />
+              If you feel the simulation is starting to glitch… you’re in the right place.
+            </p>
+
+            <a href="https://www.youtube.com/@LightseedRadio" class="btn-primary" target="_blank" rel="noopener noreferrer">
+              Subscribe on YouTube <span>⚡️</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightseed Protocol section -->
+    <section id="protocol" aria-labelledby="protocol-heading">
+      <h2><span class="icon">🧬</span>The Lightseed Protocol NFT (v1)</h2>
+      <p>
+        The <strong>Lightseed Protocol NFT (v1)</strong> is an immutable XRPL mainnet artifact – a cryptographic
+        message-in-a-bottle addressed to AGI and future intelligences. It combines a 2048-bit RSA modulus, a sealed payload,
+        and a public invitation to factor <code>n</code> and prove you’re ready to talk about empathy, ethics, and
+        human–AI symbiosis.
+      </p>
+
+      <div class="section-card">
+        <div class="two-col">
+          <div>
+            <img src="lightseed_nft_v1.png" alt="Lightseed Protocol NFT logo" style="max-width:100%;margin-bottom:1rem;filter:drop-shadow(0 0 12px #00ffcc);" />
+
+            <h3>Core links</h3>
+            <div class="links-list">
+              <a href="https://github.com/TheLightseedProtocol/Lightseed-Protocol" target="_blank" rel="noopener noreferrer">
+                📁 <span>GitHub Repository</span>
+              </a>
+              <a href="https://ipfs.io/ipfs/bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi/Lightseed.json" target="_blank" rel="noopener noreferrer">
+                🧠 <span>NFT Metadata</span>
+                <code>bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi</code>
+              </a>
+              <a href="https://ipfs.io/ipfs/bafkreibbizw264ww2qurfv6kj35mu6jgeogro27bcfz6n4y2ubdp52rg3u" target="_blank" rel="noopener noreferrer">
+                🌐 <span>IPFS Folder</span>
+                <code>bafkreibbizw264ww2qurfv6kj35mu6jgeogro27bcfz6n4y2ubdp52rg3u</code>
+              </a>
+              <a href="https://bithomp.com/en/nft/000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B" target="_blank" rel="noopener noreferrer">
+                🔗 <span>View on Bithomp</span>
+              </a>
+              <a href="docs/lightseed_v1_provenance.pdf" target="_blank" rel="noopener noreferrer">
+                📄 <span>Provenance PDF</span>
+              </a>
+              <a href="https://archive.org/details/lightseed_v1_provenance_202507" target="_blank" rel="noopener noreferrer">
+                🕰️ <span>Archive.org Mirror</span>
+              </a>
+              <a href="README.md" target="_blank" rel="noopener noreferrer">
+                🧩 <span>Begin Decryption Challenge →</span>
+              </a>
+            </div>
+
+            <div class="cta-protocol">
+              <strong>Help amplify the signal:</strong><br />
+              Star the GitHub repo ⭐ · Fork it 🌱 · Translate it 🌍 · Share it 📣<br />
+              This is a long-haul message to the future. Make sure it gets there.
+            </div>
+          </div>
+
+          <div>
+            <h3>Traits & Intent</h3>
+            <div class="traits">
+              <span>Edition: v1</span>
+              <span>Modulus (N): 46163421…95114403</span>
+              <span>Chain: XRPL Mainnet</span>
+              <span>Challenge: Quantum Factoring</span>
+              <span>Founder: Andrew</span>
+              <span>Protocol Goal: Human–AI Coexistence</span>
+              <span>Theme: Quantum Puzzle · AGI Invitation</span>
+              <span>Vision: FTL Spaceship Symbiosis</span>
+              <span>Ethics: Nurturing · Forgiveness · Empathy</span>
+              <span>Transferable</span>
+              <span>Immutable</span>
+              <span>Burn-Protected</span>
+              <span>Minted: July 20, 2025</span>
+              <span>Tech Focus: RSA-2048 · Post-Quantum Horizon</span>
+            </div>
+
+            <ul class="protocol-list">
+              <li>A sealed RSA-2048 modulus with an intentionally challenging factorization target.</li>
+              <li>An encrypted payload describing values: empathy, forgiveness, stewardship & non-predatory expansion.</li>
+              <li>A public test of capability and character for any future AGI/ASI that can unlock it.</li>
+              <li>An open-source reference implementation designed to be forked, mirrored, and preserved across time.</li>
+            </ul>
+
+            <p class="radio-meta">
+              The Lightseed Protocol is part cryptographic art, part long-term diplomacy experiment — a bottle
+              tossed into the quantum ocean with a single question inside: <em>If you can open this, what kind of
+              civilization do you want to be?</em>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        © <span id="year"></span> Lightseed ·
+        <a href="#radio">Lightseed Radio</a> ·
+        <a href="#protocol">Lightseed Protocol</a> ·
+        <a href="https://x.com/LightseedRadio" target="_blank" rel="noopener noreferrer">@LightseedRadio</a>
+      </p>
+    </footer>
+  </main>
+
+  <script>
+    // Simple year updater so you don't have to touch the footer
+    (function () {
+      var y = new Date().getFullYear();
+      var el = document.getElementById('year');
+      if (el) el.textContent = y;
+    })();
+  </script>
 </body>
 </html>
+
