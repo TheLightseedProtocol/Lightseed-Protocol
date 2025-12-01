@@ -581,6 +581,33 @@
       font-size: 0.95rem;
     }
 
+    .contact-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.9rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .qr-wrap {
+      margin: 0 auto;
+      max-width: 220px;
+    }
+
+    .qr-wrap img {
+      width: 100%;
+      border-radius: 16px;
+      border: 1px solid var(--card-border);
+      box-shadow: var(--shadow-soft);
+      background: #000;
+    }
+
+    .qr-caption {
+      margin-top: 0.4rem;
+      font-size: 0.8rem;
+      color: var(--text-soft);
+    }
+
     footer {
       font-size: 0.8rem;
       color: var(--text-soft);
@@ -872,11 +899,33 @@
         <h2><span class="icon">✉️</span>Contact Lightseed</h2>
         <p class="contact-text">
           Want to reach out about Lightseed Radio, the Lightseed Protocol, or potential collaborations?
-          Click the button below to open your email client and send us a message.
+          Use email or WhatsApp below to get in touch.
         </p>
-        <button class="btn-primary" type="button" onclick="openContactEmail()">
-          Click to email us
-        </button>
+
+        <div class="contact-actions">
+          <button class="btn-primary" type="button" onclick="openContactEmail()">
+            Click to email us
+          </button>
+
+          <a
+            class="btn-ghost"
+            href="https://wa.me/601167708594"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Chat with us on WhatsApp
+          </a>
+        </div>
+
+        <div class="qr-wrap">
+          <img
+            src="media/Lightseed_Radio_Whatsapp_QR.png"
+            alt="Lightseed Radio WhatsApp QR code"
+          />
+          <div class="qr-caption">
+            Scan this QR code with WhatsApp to start a chat.
+          </div>
+        </div>
       </div>
     </section>
 
