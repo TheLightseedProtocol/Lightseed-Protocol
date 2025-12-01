@@ -149,14 +149,12 @@
       gap: 1rem;
     }
 
-    .brand-mark {
+    .brand-logo {
       width: 40px;
       height: 40px;
-      border-radius: 50%;
-      background:
-        radial-gradient(circle at 30% 20%, #ffffff 0, #00ffcc 20%, transparent 60%),
-        radial-gradient(circle at 70% 80%, #ff4df0 0, #00b3ff 18%, transparent 60%);
-      box-shadow: 0 0 24px rgba(0, 255, 204, 0.6);
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 0 18px rgba(0, 255, 204, 0.75);
     }
 
     .brand-text h1 {
@@ -591,7 +589,11 @@
   <main>
     <header>
       <div class="brand">
-        <div class="brand-mark" aria-hidden="true"></div>
+        <img
+          src="media/lightseed_nft_thumbnail.jpg"
+          alt="Lightseed logo"
+          class="brand-logo"
+        />
         <div class="brand-text">
           <h1>Lightseed</h1>
           <p>Decoding the Known & Unknown: High-Tech & High Strangeness</p>
