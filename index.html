@@ -566,6 +566,21 @@
       font-size: 0.9rem;
     }
 
+    /* Contact section */
+    .contact-section {
+      margin-bottom: 3rem;
+    }
+
+    .contact-section .section-card {
+      text-align: center;
+    }
+
+    .contact-section .contact-text {
+      margin: 0.5rem auto 1.2rem;
+      max-width: 32rem;
+      font-size: 0.95rem;
+    }
+
     footer {
       font-size: 0.8rem;
       color: var(--text-soft);
@@ -851,6 +866,20 @@
       </div>
     </section>
 
+    <!-- Contact section -->
+    <section id="contact" class="contact-section" aria-label="Contact Lightseed">
+      <div class="section-card">
+        <h2><span class="icon">✉️</span>Contact Lightseed</h2>
+        <p class="contact-text">
+          Want to reach out about Lightseed Radio, the Lightseed Protocol, or potential collaborations?
+          Click the button below to open your email client and send us a message.
+        </p>
+        <button class="btn-primary" type="button" onclick="openContactEmail()">
+          Click to email us
+        </button>
+      </div>
+    </section>
+
     <footer>
       <p>
         © <span id="year"></span> Lightseed ·
@@ -868,6 +897,14 @@
       var el = document.getElementById('year');
       if (el) el.textContent = y;
     })();
+
+    // Build the email address in JS to avoid a plain mailto/email string in the HTML
+    function openContactEmail() {
+      var user = 'thelightseedprotocolpublic';
+      var domain = 'proton.me';
+      var address = user + '@' + domain;
+      window.location.href = 'mailto:' + address;
+    }
   </script>
 </body>
 </html>
