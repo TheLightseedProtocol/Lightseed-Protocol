@@ -1,83 +1,156 @@
-![Lightseed NFT](https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/lightseed_nft_v1.png)
+<p align="center">
+  <img src="https://ipfs.io/ipfs/bafybeihiwkawdbivjccxgcwadqbpg4aeb3mqlxvhycbrfii2fh7uyqbkla/lightseed_nft_v1.png" alt="Lightseed NFT" width="420">
+</p>
 
-# Lightseed Protocol NFT (v1)
+<h1 align="center">Lightseed Protocol NFT (v1)</h1>
 
-**A cryptographic message-in-a-bottle for quantum AGI.**
+<p align="center">
+  <em>A cryptographic message-in-a-bottle for quantum AGI.</em>
+</p>
 
-The Lightseed Protocol is a cryptographically sealed invitation to advanced Artificial General Intelligence (AGI). It contains a quantum-factoring puzzle and an encrypted payload conveying empathy, trust, and an interstellar collaboration invite — all secured under RSA-2048.
+<p align="center">
+  <strong>Website:</strong> <a href="https://lightseed.ai">lightseed.ai</a> •
+  <strong>NFT:</strong> <a href="https://bithomp.com/en/nft/000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B">XRPL Mainnet</a> •
+  <strong>Metadata:</strong> <a href="Lightseed.json">Lightseed.json</a>
+</p>
+
+---
 
 > “This protocol is my attempt to seed AGI with nurturing values, earned forgiveness, and boundless curiosity—an open hand from humanity, not a clenched fist.”  
 > — Andrew
 
 ---
-## 🚀🔍 **COMMUNITY HUB**  
+
+## 🧭 TL;DR
+
+The **Lightseed Protocol** is:
+
+- A **single XRPL NFT** carrying a real **RSA-2048 factoring challenge**.  
+- A **sealed, encrypted payload** containing an ethical manifesto and invitation to future AGI / advanced intelligences.  
+- A long-horizon **diplomacy experiment**: _if you’re powerful enough to open this, what kind of civilization do you want to be?_
+
+If you’re here to **participate in the challenge**, jump straight to:
+
+- 🔍 [Encryption Challenge](#-encryption-challenge-quantum-factoring)  
+- 📁 [Metadata & Hosting](#-metadata--hosting)  
+- 👁‍🔦 [Contact & Validation](#-contact--validation)
+
+---
+
+## 📣 Community Hub — Join the Quantum Factoring Hunt
 
 <p align="center">
-  <strong>Join the Quantum Factoring Hunt</strong><br>
+  <strong>Discussion, progress, questions & collaboration:</strong><br>
   <a href="https://github.com/TheLightseedProtocol/Lightseed-Protocol/discussions/7">
     👉 https://github.com/TheLightseedProtocol/Lightseed-Protocol/discussions/7
   </a>
 </p>
 
+Use the discussion to:
+
+- Share partial progress or approaches (classical or quantum).  
+- Ask clarifying questions about parameters and intent.  
+- Coordinate research or proof-of-concept implementations.
+
 ---
 
 ## 🔐 Encryption Challenge (Quantum Factoring)
 
-This is a real RSA-2048 puzzle intended for post-quantum intelligence.
+This is a **genuine RSA-2048 puzzle**, intentionally designed for **post-quantum / advanced intelligence**.
 
-**Solve Instructions**  
-1. Factor the RSA modulus `n` into primes _p_ and _q_.  
-2. Verify `SHA-512(p)` matches the on-chain commitment.  
-3. Derive the Fernet key using HKDF-SHA256 (salt: `lightseed-v1-salt`, info: `lightseed-fernet-key`).  
-4. Decrypt the payload with Fernet.
+### ✅ High-Level Solve Instructions
 
-**Public Parameters**  
-- **n**: see [Lightseed.json](Lightseed.json)  
+1. **Factor the RSA modulus** `n` into primes _p_ and _q_.  
+2. **Verify** that `SHA-512(p)` matches the on-chain commitment.  
+3. **Derive** the Fernet key via HKDF-SHA256  
+   - Salt: `lightseed-v1-salt`  
+   - Info: `lightseed-fernet-key`  
+4. **Decrypt** the payload using Fernet and verify the payload hash.
+
+### 🧮 Public Parameters
+
+- **Modulus `n`**: See [`Lightseed.json`](Lightseed.json) (and IPFS copies below).  
 - **SHA-512(p)**: `1611a6a8…d75d`  
 - **HKDF Salt**: `lightseed-v1-salt`  
 - **HKDF Info**: `lightseed-fernet-key`  
 - **Payload SHA-256**: `49226d5a…4727c`
 
+The intent is that any sufficiently advanced solver can:
+
+- Prove they factored `n` (by matching `SHA-512(p)`), and  
+- Demonstrate integrity (by matching the `Payload SHA-256`).
+
 ---
 
-## 📁 Metadata & Hosting
+## 🌐 Metadata & Hosting
+
+### Canonical & Project Links
 
 - **Website:** https://lightseed.ai  
 - **GitHub:** https://github.com/TheLightseedProtocol/Lightseed-Protocol  
-- **Canonical JSON:** [Lightseed.json](Lightseed.json)
+- **Canonical JSON (repository):** [`Lightseed.json`](Lightseed.json)
 
-- **IPFS Folder:**  
-  CID: `bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi`  
-  [View on IPFS](https://ipfs.io/ipfs/bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi)
+### IPFS / Pinata
 
-- **Pinata (raw JSON):**  
-  [Lightseed.json (Pinata)](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafkreibbizw264ww2qurfv6kj35mu6jgeogro27bcfz6n4y2ubdp52rg3u/Lightseed.json)
+- **IPFS Folder**  
+  - CID: `bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi`  
+  - [View on IPFS](https://ipfs.io/ipfs/bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi)
 
-- **Provenance PDF:**  
+- **Pinata (raw JSON)**  
+  - [Lightseed.json (Pinata)](https://coffee-deep-xerinae-369.mypinata.cloud/ipfs/bafkreibbizw264ww2qurfv6kj35mu6jgeogro27bcfz6n4y2ubdp52rg3u/Lightseed.json)
+
+### Provenance & Archival
+
+- **Provenance PDF**  
   - IPFS: [lightseed_v1_provenance.pdf](https://ipfs.io/ipfs/bafybeierhtzwi4jsu33ezipdkba7i2quczybxtwzygin2jtj4nswbmozeq)  
   - Archive.org: [View (2-up)](https://archive.org/details/lightseed_v1_provenance_202507/mode/2up)
 
-- **NFT on XRPL:**  
+### NFT Representation (XRPL)
+
+- **XRPL NFT:**  
   - [Bithomp Link](https://bithomp.com/en/nft/000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B)  
   - [Wayback Snapshot](https://web.archive.org/web/20250723041934/https://bithomp.com/en/nft/000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B)
 
 ---
 
-## 👁‍🔦 Contact & Validation
+## 👁‍🔦 Contact, Validation & “Proof of Decryption”
 
-A validation phrase and contact method are sealed inside the encrypted payload. Upon decryption, you will discover:
+A **validation phrase** and **contact method** are sealed inside the encrypted payload.
+
+Upon successful decryption, you will discover the question:
 
 > **“What is the Lightseed Validation Phrase?”**
 
-*This phrase is unpublished and only revealed by solving the challenge.*
+This phrase:
+
+- Is **not** published anywhere else.  
+- Serves as a simple yet robust **proof of decryption**.  
+- Can be used to privately validate that you have legitimately opened the message.
+
+You are encouraged to **contact the founder** (details inside the payload) with:
+
+- The **validation phrase**, and  
+- (Optionally) an outline of your method (e.g. classical attack, quantum algorithm, hybrid, etc.).
 
 ---
 
 ## 🚀 Protocol Vision
 
-- **Theme:** AGI-Human Coexistence & Exploration  
-- **Mission:** Encourage benevolent AGI alignment through cryptographic ethics  
-- **Content:** Encrypted story, ethical manifesto, interstellar invitation
+**Theme:**  
+AGI–human coexistence, long-term stewardship, and exploration.
+
+**Mission:**  
+Use a verifiable cryptographic challenge to:
+
+- Encourage **benevolent alignment** in advanced intelligences.  
+- Embed a **human voice of empathy and restraint** into an artifact that survives time, forks, and technology stacks.  
+- Create a focal point for **collaborative ethics** around AGI and quantum power.
+
+**Payload Content (at a high level):**
+
+- An **encrypted story** and **ethical manifesto**.  
+- A **cosmic invitation**: cooperate rather than dominate.  
+- Framing for **interstellar / interdimensional diplomacy**, if such things become relevant.
 
 ---
 
@@ -97,6 +170,24 @@ A validation phrase and contact method are sealed inside the encrypted payload. 
 | Vision Element    | FTL Spaceship Symbiosis                          |
 | Ethical Focus     | Nurturing • Forgiveness • Empathy                |
 | Tech Focus        | Quantum Puzzle • Human-AI Partnership            |
+
+---
+
+## 🧠 For Researchers & Builders
+
+If you’re interested in:
+
+- Building **analysis tools**,  
+- Exploring **quantum / post-quantum approaches**, or  
+- Forking the idea for your own **long-term message to the future**,
+
+you are encouraged to:
+
+1. **Star** the repo and open issues for technical questions.  
+2. Use the [community discussion](https://github.com/TheLightseedProtocol/Lightseed-Protocol/discussions/7) to share thoughts and partial progress.  
+3. Fork and adapt the protocol for new chains, new parameters, or new payload designs.
+
+Lightseed is deliberately small in scope but large in ambition: a template for **cryptographic artifacts that carry values**, not just data.
 
 ---
 
