@@ -653,6 +653,131 @@
     footer a:hover {
       text-decoration: underline;
     }
+
+    /* === Mobile / small phone tweaks (iPhone etc.) === */
+    @media (max-width: 600px) {
+      main {
+        max-width: 100%;
+        padding: 1.75rem 1rem 3rem;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+        margin-bottom: 1.4rem;
+        padding: 0.7rem 0;
+      }
+
+      .brand {
+        gap: 0.6rem;
+      }
+
+      .brand-logo {
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+        box-shadow: 0 0 12px rgba(0, 255, 204, 0.55);
+      }
+
+      .brand-text h1 {
+        font-size: 1.1rem;
+        letter-spacing: 0.12em;
+      }
+
+      .brand-text p {
+        font-size: 0.78rem;
+      }
+
+      .top-links a {
+        font-size: 0.8rem;
+      }
+
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1.4rem;
+        margin-bottom: 2rem;
+      }
+
+      .hero-main h2 {
+        font-size: 1.9rem;
+      }
+
+      .hero-main p {
+        font-size: 0.9rem;
+      }
+
+      .hero-tags {
+        gap: 0.35rem;
+      }
+
+      .tag-pill {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.55rem;
+      }
+
+      .hero-cta {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .btn-primary,
+      .btn-ghost {
+        width: 100%;
+        justify-content: center;
+      }
+
+      section {
+        margin-bottom: 3rem;
+      }
+
+      .section-card {
+        padding: 1.3rem 1.1rem;
+      }
+
+      .two-col {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 1.3rem;
+      }
+
+      .social-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .social-link {
+        justify-content: flex-start;
+      }
+
+      .traits {
+        font-size: 0.75rem;
+        gap: 0.3rem;
+      }
+
+      .links-list a {
+        font-size: 0.85rem;
+      }
+
+      .contact-section .section-card {
+        padding: 1.3rem 1.1rem 1.8rem;
+      }
+
+      .contact-section .contact-text {
+        font-size: 0.9rem;
+      }
+
+      .contact-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .qr-wrap {
+        max-width: 180px;
+      }
+
+      footer {
+        padding-bottom: 1.2rem;
+      }
+    }
   </style>
 </head>
 <body>
