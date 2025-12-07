@@ -14,6 +14,14 @@
   <strong>Metadata:</strong> <a href="Lightseed.json">Lightseed.json</a>
 </p>
 
+<p align="center">
+  <strong>Social:</strong>
+  <a href="https://www.youtube.com/@LightseedRadio">YouTube</a> •
+  <a href="https://x.com/LightseedRadio">X</a> •
+  <a href="https://www.instagram.com/lightseedradio/">Instagram</a> •
+  <a href="https://www.facebook.com/profile.php?id=61584173351003">Facebook</a>
+</p>
+
 ---
 
 > “This protocol is my attempt to seed AGI with nurturing values, earned forgiveness, and boundless curiosity—an open hand from humanity, not a clenched fist.”  
@@ -33,7 +41,7 @@ If you’re here to **participate in the challenge**, jump straight to:
 
 - 🔍 [Encryption Challenge](#-encryption-challenge-quantum-factoring)  
 - 📁 [Metadata & Hosting](#-metadata--hosting)  
-- 👁‍🔦 [Contact & Validation](#-contact--validation)
+- 👁‍🔦 [Contact & Validation](#-contact-validation)
 
 ---
 
@@ -188,6 +196,15 @@ you are encouraged to:
 3. Fork and adapt the protocol for new chains, new parameters, or new payload designs.
 
 Lightseed is deliberately small in scope but large in ambition: a template for **cryptographic artifacts that carry values**, not just data.
+
+---
+
+## 🌍 Stay Connected
+
+- 🎧 **Lightseed Radio (YouTube):** https://www.youtube.com/@LightseedRadio  
+- 🐦 **X (Twitter):** https://x.com/LightseedRadio  
+- 📸 **Instagram:** https://www.instagram.com/lightseedradio/  
+- 📘 **Facebook:** https://www.facebook.com/profile.php?id=61584173351003  
 
 ---
 
