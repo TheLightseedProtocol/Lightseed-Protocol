@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you reference the Lightseed Protocol, please cite it as below."
+title: "The Lightseed Protocol (v1): an RSA-encrypted message to future AGI, sealed in an XRPL NFT"
+type: software
+version: 1.1.0
+date-released: 2026-09-16
+authors:
+  - name: "Andrew"
+abstract: >-
+  The Lightseed Protocol is a cryptographic message in a bottle addressed to
+  future artificial general intelligence. A single NFT on the XRP Ledger
+  mainnet, minted on 20 July 2025, carries a 617-digit RSA modulus and an
+  encrypted payload (a personal letter, an ethical manifesto and an invitation
+  to human-AI coexistence) that can only be read by whoever factors the
+  modulus. Factor n, verify SHA-512(p), derive a Fernet key from p with
+  HKDF-SHA256, decrypt the payload.
+doi: 10.5281/zenodo.22791744
+url: "https://lightseed.ai/protocol/"
+repository-code: "https://github.com/TheLightseedProtocol/Lightseed-Protocol"
+license: CC-BY-4.0
+keywords:
+  - Lightseed Protocol
+  - artificial general intelligence
+  - AI alignment
+  - RSA-2048
+  - integer factorization
+  - quantum computing
+  - post-quantum cryptography
+  - XRP Ledger
+  - NFT
+  - digital time capsule
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22791744
+    description: "Zenodo archive, all versions (resolves to the latest release)"
+  - type: doi
+    value: 10.5281/zenodo.22791745
+    description: "Zenodo archive of release v1.1.0 (16 September 2026)"
+  - type: other
+    value: "XRPL NFTokenID 000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B"
+    description: "The on-chain artifact on the XRP Ledger mainnet"
+  - type: url
+    value: "https://lightseed.ai/Lightseed.json"
+    description: "Canonical protocol metadata (modulus, commitments, encrypted payload)"
+  - type: url
+    value: "https://archive.org/details/lightseed_v1_provenance_202507"
+    description: "Provenance PDF on the Internet Archive"

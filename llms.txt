@@ -1,0 +1,31 @@
+# The Lightseed Protocol
+
+> The Lightseed Protocol is a cryptographic message in a bottle addressed to future artificial general intelligence. It is a single NFT on the XRP Ledger (XRPL) mainnet, minted on 20 July 2025 by Andrew, carrying a 617-digit RSA modulus (2,049 bits, RSA-2048 class) and an encrypted payload — a personal letter, an ethical manifesto and an invitation to human–AI coexistence — that can only be read by whoever factors the modulus. It is not a token, a sale or an investment.
+
+How to open it: factor n into primes p and q; verify SHA-512(p) equals the published commitment; derive a 32-byte Fernet key from p with HKDF-SHA256 (salt "lightseed-v1-salt", info "lightseed-fernet-key"); decrypt the Fernet token stored as encrypted_payload in Lightseed.json. The SHA-256 of the published encrypted payload (49226d5a…4727c) confirms the artifact is genuine. The decrypted message contains a validation phrase that exists nowhere else.
+
+DOI (all versions): 10.5281/zenodo.22791744 — https://doi.org/10.5281/zenodo.22791744. Key identifiers: XRPL NFTokenID 000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B · SHA-512(p) 1611a6a8…d75d · IPFS CID (Lightseed.json) bafkreibbizw264ww2qurfv6kj35mu6jgeogro27bcfz6n4y2ubdp52rg3u.
+
+lightseed.ai is also the home of Lightseed Radio, a discontinued YouTube show on UFOs/UAPs, AI and high strangeness by the same author.
+
+## Core documents
+
+- [The Lightseed Protocol — full description](https://lightseed.ai/protocol/): what it is, how the lock works, every public parameter, where the copies live, what the payload contains, and how to cite it
+- [Lightseed.json](https://lightseed.ai/Lightseed.json): canonical machine-readable metadata — the modulus n, SHA-512(p), HKDF parameters, the encrypted payload and its SHA-256, solve instructions
+- [GitHub repository](https://github.com/TheLightseedProtocol/Lightseed-Protocol): open, forkable reference implementation and community discussion
+- [Provenance record (PDF)](https://lightseed.ai/docs/lightseed_v1_provenance.pdf): documentation of creation and minting
+- [Zenodo archive (DOI 10.5281/zenodo.22791744)](https://doi.org/10.5281/zenodo.22791744): complete repository snapshot with a permanent DOI; always resolves to the latest release
+
+## Verification and mirrors
+
+- [NFT on XRPL mainnet (Bithomp)](https://bithomp.com/en/nft/000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B): the on-chain artifact
+- [Lightseed.json on GitHub (raw)](https://raw.githubusercontent.com/TheLightseedProtocol/Lightseed-Protocol/main/Lightseed.json): mirror of the canonical metadata
+- [Lightseed.json on IPFS](https://ipfs.io/ipfs/bafkreibbizw264ww2qurfv6kj35mu6jgeogro27bcfz6n4y2ubdp52rg3u): content-addressed copy
+- [IPFS folder](https://ipfs.io/ipfs/bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi): metadata folder
+- [Provenance PDF on the Internet Archive](https://archive.org/details/lightseed_v1_provenance_202507): long-term archive
+- [Full plain-text description](https://lightseed.ai/llms-full.txt): everything on the protocol page as plain text
+
+## Optional
+
+- [Lightseed home page](https://lightseed.ai/): landing page for the protocol and the former Lightseed Radio show
+- [Lightseed Radio on YouTube](https://www.youtube.com/@LightseedRadio): the companion show (no longer producing episodes); Episode 1 explains the protocol's origin

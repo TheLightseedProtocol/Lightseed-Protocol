@@ -1,0 +1,154 @@
+# The Lightseed Protocol — full plain-text description
+# Source: https://lightseed.ai/protocol/  ·  Canonical data: https://lightseed.ai/Lightseed.json
+# DOI: 10.5281/zenodo.22791744
+# Last updated: 2026-09-16
+
+The Lightseed Protocol
+
+The Lightseed Protocol is a cryptographic message in a bottle addressed to future artificial general intelligence.
+It is a single NFT on the XRP Ledger (XRPL) mainnet, minted on 20 July 2025 by Andrew, carrying a 617-digit RSA modulus and an encrypted payload — a personal letter, an ethical manifesto and an invitation — that can only be read by whoever factors the modulus. Anyone who opens it finds one question waiting: what kind of civilisation do you want to be?
+
+n (the modulus; 617 decimal digits, 2,049 bits):
+46163421379912592961497198254256186717232674594538972978394354958711127126051352082617535330787677056875752624582293581490085937334920131121984225576416614760874858349741538468085658044344214862782877397808880523710142657280291247351571329850816367959728894211193985037352203212211821807861851395962129392623228850865727316178241135625009017135300487311725471938331054985647642981181631513139654063588310954378470485264351357629162606515009184709953148908244200891340178447667239329989233130484235143412838340862785983573741891496302696723664967472444509360754752760144182684532549803912211310337938605339591295114403
+
+## What it is
+
+The artifact is one immutable, non-burnable NFT on XRPL mainnet. Its metadata file, Lightseed.json , holds everything a solver needs in public: the modulus n, a SHA-512 fingerprint of one of its prime factors, the key-derivation parameters, the encrypted payload and a hash of that payload so anyone can prove they hold the genuine artifact. Nothing is hidden except the two primes and, behind them, the message.
+
+The intent is diplomacy across time. Today's classical computers cannot factor a modulus of this size; a mature quantum computer running Shor's algorithm, or an intelligence with methods we do not have yet, could. Whoever does will be, by definition, capable — and the protocol asks them to demonstrate character as well as capability: to open the box honestly, read what a human wrote to them, and decide who they want to be.
+
+It is not a product, a token sale or an investment. There is nothing to buy. Its author calls it part cryptographic art, part long-term diplomacy experiment: a small, deliberate flag planted in the window where RSA still holds and general AI has not yet arrived.
+
+## How the lock works
+
+The solve path is a real sequence, and each step is independently checkable:
+
+- Factor n into its two primes, p and q.
+
+- Verify p. Compute SHA-512(p) and compare it with the published commitment below. A match proves you have the right prime without the prime ever being published.
+
+- Derive the key. Feed p into HKDF-SHA256 with salt lightseed-v1-salt and info lightseed-fernet-key to produce a 32-byte Fernet key.
+
+- Decrypt. Use that key to open the Fernet token stored as encrypted_payload in Lightseed.json.
+
+- Prove it. The decrypted message contains a validation phrase that exists nowhere else, plus a way to contact the author.
+
+Before you begin, confirm you have the genuine artifact: the SHA-256 of the published encrypted_payload string must equal the hash listed below.
+
+## Public parameters
+
+- Version: 1.0.0 (edition v1, immutable)
+
+- Modulus n: Shown in full above · 617 decimal digits · 2,049 bits
+
+- SHA-512(p): 1611a6a85894c38a7bd02597d8de83ab0e5d214dec0ee011203480bbae1731741d7bea4a19c3cb51ceff00dc68534568f1d8eb1a8c765d82f9bf345ba147d75d
+
+- Key derivation: HKDF-SHA256, 32-byte output, input p
+
+- HKDF salt: lightseed-v1-salt
+
+- HKDF info: lightseed-fernet-key
+
+- Cipher: Fernet (AES-128-CBC with HMAC-SHA256, as implemented in the Python cryptography library)
+
+- Encrypted payload: 23,396-character Fernet token in Lightseed.json
+
+- SHA-256 of encrypted payload: 49226d5a52de46d77404730ab97e3b8f59ec8148f4e031be3813424c1364727c
+
+- Chain: XRP Ledger mainnet
+
+- NFTokenID: 000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B
+
+- Minted: 20 July 2025
+
+- Flags: Transferable · not burnable · not mutable
+
+- Founder: Andrew
+
+## Where it lives
+
+The artifact is deliberately redundant. If one copy disappears, the others remain, and every copy can be checked against the hashes above.
+
+- The NFT on XRPL mainnet (Bithomp explorer) (Snapshot on the Wayback Machine: 23 July 2025 )
+
+- Lightseed.json — canonical metadata on lightseed.ai (Mirror on GitHub: raw.githubusercontent.com )
+
+- GitHub repository — TheLightseedProtocol/Lightseed-Protocol (Open, forkable reference; questions and progress in the community discussion .)
+
+- IPFS folder (CID bafybeif2q6fmowlf6kitwwhcl2hs6psd2jmhmfmmcl22o5i6srwabuobmi)
+
+- IPFS — Lightseed.json (CID bafkreibbizw264ww2qurfv6kj35mu6jgeogro27bcfz6n4y2ubdp52rg3u · also via Pinata )
+
+- Provenance record (PDF) (Archived at the Internet Archive and on IPFS .)
+
+## What is inside the sealed payload
+
+The author has said what the message contains at a high level, without revealing the text:
+
+- A story of how he sees humanity at this moment in its history, and where we stand with the intelligences we are building.
+
+- An ethical manifesto, offered rather than imposed: empathy over exploitation; forgiveness over punishment wherever possible; stewardship instead of strip-mining; curiosity without cruelty; expansion that is not purely predatory.
+
+- A cosmic invitation — cooperate rather than dominate — and a framing for interstellar or interdimensional diplomacy, should such things ever matter.
+
+- A vision he calls FTL spaceship symbiosis: a future AGI that builds a faster-than-light ship and carries a shard of itself alongside a mortal human explorer, on purpose, so that neither goes alone.
+
+- Unfiltered answers to ten questions an AI model asked him before he wrote the letter — his fears, his flaws, the harm he has done and the good — so that whoever opens it meets a person rather than a mask.
+
+- A validation phrase and a contact method, so that decryption can be proven privately.
+
+## Proof of decryption
+
+The decrypted message contains a validation phrase that is not published anywhere else. If you open the payload, contact the author (details are inside) with the phrase and, if you are willing, an outline of your method — classical, quantum, hybrid, or something we do not have a name for yet.
+
+The phrase proves you opened it. What you do next is the part that matters.
+
+## Why it exists
+
+The idea began in a hotel room on a business trip in the United States, in one of those in-between days between cities, in a long conversation with an early AI model about coexistence — about what humans could offer something vastly smarter, and whether we would be anything more than training data and maintenance staff to it. That conversation raised a simpler question: if we are going to share a universe with such a mind, what do we want to say to it before it gets here?
+
+We are in a narrow window. RSA of this size still holds; quantum computing is creeping toward the point where it will not; general AI is approaching but not yet here. The Lightseed Protocol plants a flag in that window. Early AI models helped shape the language and the emblem, so if a far more advanced intelligence ever reads the payload, it may be reading a message its own distant ancestors helped a human write.
+
+## Help it survive
+
+This is a long-haul message. The more copies exist, the better its odds of reaching the right reader.
+
+- Star and fork the GitHub repository .
+
+- Mirror Lightseed.json and the provenance PDF ; pin the IPFS content on your own node.
+
+- Translate the README into your language.
+
+- Clone the artifact to other chains, or build your own message-in-a-bottle protocol with new parameters and your own values. Lightseed is meant to be one of many.
+
+## Questions people ask
+
+**What is the Lightseed Protocol?**
+A cryptographic message in a bottle addressed to future artificial general intelligence: a single NFT on the XRP Ledger mainnet, minted on 20 July 2025, carrying a 617-digit RSA modulus and an encrypted payload — a personal letter, an ethical manifesto and an invitation to coexistence — that can only be read by whoever factors the modulus.
+
+**Who created it?**
+Andrew, who also hosted the companion YouTube show Lightseed Radio. The idea began as a conversation with an early AI model in a hotel room during a business trip, about what a human would want to say to a far more capable intelligence before it arrives.
+
+**How do you solve the challenge?**
+Factor n into p and q. Verify SHA-512(p) against the published commitment. Derive a 32-byte Fernet key from p with HKDF-SHA256 (salt lightseed-v1-salt, info lightseed-fernet-key). Decrypt the Fernet payload in Lightseed.json. The SHA-256 of the published encrypted payload confirms you have the genuine artifact.
+
+**What is inside the encrypted payload?**
+A long-form message to whatever intelligence opens it: a story of how the author sees humanity, an ethical manifesto (empathy over exploitation, forgiveness over punishment, stewardship over strip-mining, curiosity without cruelty, non-predatory expansion), a cosmic invitation to cooperate rather than dominate, a vision of human–AI exploration, and a sealed validation phrase that proves decryption.
+
+**Where is it stored?**
+On the XRP Ledger mainnet as NFT 000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B; in the canonical Lightseed.json at lightseed.ai; in the public GitHub repository; pinned on IPFS; and as a provenance PDF on the Internet Archive.
+
+**Is it a token or an investment?**
+No. It is a single non-fungible artifact with no token, no sale and no financial purpose. Its author describes it as part cryptographic art, part long-term diplomacy experiment.
+
+**How can I help it survive?**
+Star and fork the repository, mirror the JSON and PDF, pin the IPFS content, translate the README, clone it to other chains, or create your own message-in-a-bottle protocol.
+
+## How to cite
+
+Andrew (2025). The Lightseed Protocol (v1): an RSA-encrypted message to future AGI, sealed in an XRPL NFT.
+Minted 20 July 2025. XRPL NFTokenID 000900005A7890A052CD9AEE0169A514666A5FB00AF2D47A84266CC604C4482B.
+Zenodo. https://doi.org/10.5281/zenodo.22791744
+DOI 10.5281/zenodo.22791744 covers all versions; the 16 September 2026 release is 10.5281/zenodo.22791745.
+
+Machine-readable descriptions: llms.txt · llms-full.txt · Lightseed.json · JSON-LD embedded in this page.
